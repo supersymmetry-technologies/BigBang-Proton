@@ -2,11 +2,11 @@
 
 “Agreement” means the terms and conditions for use, reproduction, distribution and modification of the BigBang-Proton Materials set forth herein.
 
-“Documentation” means the specifications, manuals and documentation accompanying BigBang-Proton distributed by SuperSymmetry Technologies at: https://huggingface.co/SuperSymmetryTechnologies/BigBang-Proton
+“Documentation” means the specifications, manuals and documentation accompanying BigBang-Proton distributed by SuperSymmetry Technologies at: https://huggingface.co/SuperSymmetryTechnologies/BigBang-Proton and https://github.com/supersymmetry-technologies/BigBang-Proton. 
 
 “Licensee” or “you” means you, or your employer or any other person or entity (if you are entering into this Agreement on such person or entity’s behalf), of the age required under applicable laws, rules or regulations to provide legal consent and that has legal authority to bind your employer or such other person or entity if you are entering in this Agreement on their behalf.
 
-“BigBang-Proton” means the foundational large language models and software and algorithms, including machine-learning model code, trained model weights, inference-enabling code, training-enabling code, fine-tuning enabling code and other elements of the foregoing distributed by SuperSymmetry Technologies at: https://huggingface.co/SuperSymmetryTechnologies/BigBang-Proton
+“BigBang-Proton” means the foundational large language models and software and algorithms, including machine-learning model code, trained model weights, inference-enabling code, training-enabling code, fine-tuning enabling code and other elements of the foregoing distributed by SuperSymmetry Technologies at: https://huggingface.co/SuperSymmetryTechnologies/BigBang-Proton and https://github.com/supersymmetry-technologies/BigBang-Proton. 
 
 “BigBang-Proton Materials” means, collectively, SuperSymmetry Technologies’ proprietary BigBang-Proton and Documentation (and any portion thereof) made available under this Agreement.
 
