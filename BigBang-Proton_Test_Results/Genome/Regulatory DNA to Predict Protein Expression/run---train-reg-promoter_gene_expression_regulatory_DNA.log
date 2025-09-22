@@ -1,0 +1,447 @@
+
+total iter per epoch :38
+validation data numbers per epoch :5
+data.shape:  torch.Size([15, 82])
+tx_v.shape: torch.Size([15])
+total iter per epoch :38
+validation data numbers per epoch :5
+total iter per epoch :38
+validation data numbers per epoch :5
+total iter per epoch :38
+validation data numbers per epoch :5
+data.shape:  torch.Size([15, 82])
+tx_v.shape: torch.Size([15])
+data.shape:  torch.Size([15, 82])
+tx_v.shape: torch.Size([15])
+data.shape:  torch.Size([15, 82])
+tx_v.shape: torch.Size([15])
+fc_reg.weight不匹配
+fc_reg.bias不匹配
+fc_reg.weight不匹配
+fc_reg.bias不匹配
+fc_reg.weight不匹配
+fc_reg.bias不匹配
+fc_reg.weight不匹配
+fc_reg.bias不匹配
+Total number of parameters: 3.82849548
+Total number of parameters: 3.82849548
+Total number of parameters: 3.82849548
+Total number of parameters: 3.82849548
+NCCL version 2.20.5+cuda12.4
+Resuming training from epoch 1, batch_idx 171500, total_train_iter 171500
+Resuming training from epoch 1, batch_idx 171500, total_train_iter 171500
+Resuming training from epoch 1, batch_idx 171500, total_train_iter 171500
+Resuming training from epoch 1, batch_idx 171500, total_train_iter 171500
+started training...
+started training...
+started training...
+started training...
+####################epoch:2
+NCCL version 2.20.5+cuda12.4
+NCCL version 2.20.5+cuda12.4
+NCCL version 2.20.5+cuda12.4
+epoch=1, iter=9, iter2=10, loss=0.65521, spearmanr=-0.17707,p_value=0.5278415033492152 times:7.66s, 15 samples/iter
+Validation: epoch=1, loss=0.79722
+Pearson Correlation: 0.10720,p_value: 0.3878999948501587
+Spearman Correlation: 0.07990，p_value; 0.5204178624709455
+epoch=1,iter=14,iter2=15,spearman_corr=0.07989637121567897
+
+epoch=1, iter=19, iter2=20, loss=0.76733, spearmanr=0.24417,p_value=0.38048383826914656 times:4.64s, 15 samples/iter
+epoch=1, iter=29, iter2=30, loss=0.77983, spearmanr=0.49416,p_value=0.0611570290655702 times:3.50s, 15 samples/iter
+Validation: epoch=1, loss=0.79545
+Pearson Correlation: 0.67738,p_value: 3.081389865489115e-10
+Spearman Correlation: 0.56036，p_value; 8.178618055551742e-07
+epoch=1,iter=29,iter2=30,spearman_corr=0.5603576767735299
+
+####################epoch:3
+epoch=2, iter=9, iter2=48, loss=0.74222, spearmanr=0.50229,p_value=0.05638012275481917 times:5.51s, 15 samples/iter
+Validation: epoch=2, loss=0.79476
+Pearson Correlation: 0.59484,p_value: 1.1075703554297434e-07
+Spearman Correlation: 0.54804，p_value; 1.5833475430447243e-06
+epoch=2,iter=14,iter2=53,spearman_corr=0.5480441628243016
+
+epoch=2, iter=19, iter2=58, loss=0.75652, spearmanr=0.55357,p_value=0.03228803778924151 times:5.44s, 15 samples/iter
+epoch=2, iter=29, iter2=68, loss=0.76593, spearmanr=0.75293,p_value=0.0011954848948147 times:3.87s, 15 samples/iter
+Validation: epoch=2, loss=0.83262
+Pearson Correlation: 0.73661,p_value: 1.2047004019355434e-12
+Spearman Correlation: 0.63941，p_value; 5.748230503028602e-09
+epoch=2,iter=29,iter2=68,spearman_corr=0.6394056095076123
+
+####################epoch:4
+epoch=3, iter=9, iter2=86, loss=0.74562, spearmanr=0.35433,p_value=0.19505218103976127 times:5.12s, 15 samples/iter
+Validation: epoch=3, loss=0.79370
+Pearson Correlation: 0.64022,p_value: 5.419692694630385e-09
+Spearman Correlation: 0.56704，p_value; 5.650868418174646e-07
+epoch=3,iter=14,iter2=91,spearman_corr=0.5670389660914624
+
+epoch=3, iter=19, iter2=96, loss=0.75979, spearmanr=0.85384,p_value=5.115105215604128e-05 times:5.67s, 15 samples/iter
+epoch=3, iter=29, iter2=106, loss=0.76395, spearmanr=0.74866,p_value=0.0013213659004125608 times:3.68s, 15 samples/iter
+Validation: epoch=3, loss=0.80388
+Pearson Correlation: 0.77636,p_value: 1.174166050033152e-14
+Spearman Correlation: 0.72107，p_value; 5.914409882447463e-12
+epoch=3,iter=29,iter2=106,spearman_corr=0.721074050325767
+
+####################epoch:5
+epoch=4, iter=9, iter2=124, loss=0.74978, spearmanr=0.41443,p_value=0.1245697155941261 times:5.15s, 15 samples/iter
+Validation: epoch=4, loss=0.79379
+Pearson Correlation: 0.59595,p_value: 1.0346872159061604e-07
+Spearman Correlation: 0.58364，p_value; 2.1748470001818976e-07
+epoch=4,iter=14,iter2=129,spearman_corr=0.583641771030316
+
+epoch=4, iter=19, iter2=134, loss=0.75730, spearmanr=0.71615,p_value=0.0026720563860855497 times:5.41s, 15 samples/iter
+epoch=4, iter=29, iter2=144, loss=0.76199, spearmanr=0.75653,p_value=0.0010972215056006822 times:3.59s, 15 samples/iter
+Validation: epoch=4, loss=0.85701
+Pearson Correlation: 0.72780,p_value: 3.0106498891124822e-12
+Spearman Correlation: 0.68411，p_value; 1.7522713235240854e-10
+epoch=4,iter=29,iter2=144,spearman_corr=0.6841087435626793
+
+####################epoch:6
+epoch=5, iter=9, iter2=162, loss=0.75215, spearmanr=0.53497,p_value=0.03989554777716561 times:5.53s, 15 samples/iter
+Validation: epoch=5, loss=0.80922
+Pearson Correlation: 0.51916,p_value: 6.754656169505324e-06
+Spearman Correlation: 0.48227，p_value; 3.587729600613044e-05
+epoch=5,iter=14,iter2=167,spearman_corr=0.48226508473451746
+
+epoch=5, iter=19, iter2=172, loss=0.75459, spearmanr=0.49418,p_value=0.06114480745732903 times:5.94s, 15 samples/iter
+epoch=5, iter=29, iter2=182, loss=0.75691, spearmanr=0.66910,p_value=0.006374435857583901 times:3.67s, 15 samples/iter
+Validation: epoch=5, loss=0.79850
+Pearson Correlation: 0.71768,p_value: 8.25682317656673e-12
+Spearman Correlation: 0.64471，p_value; 3.914993818301277e-09
+epoch=5,iter=29,iter2=182,spearman_corr=0.6447061273383298
+
+####################epoch:7
+epoch=6, iter=9, iter2=200, loss=0.74999, spearmanr=0.30632,p_value=0.26682333514992385 times:5.03s, 15 samples/iter
+Validation: epoch=6, loss=0.80708
+Pearson Correlation: 0.52081,p_value: 6.237779416551348e-06
+Spearman Correlation: 0.49789，p_value; 1.810608423196146e-05
+epoch=6,iter=14,iter2=205,spearman_corr=0.49789239836546817
+
+epoch=6, iter=19, iter2=210, loss=0.75165, spearmanr=0.28113,p_value=0.31009050577478603 times:5.38s, 15 samples/iter
+epoch=6, iter=29, iter2=220, loss=0.75392, spearmanr=0.67445,p_value=0.0058188300383247345 times:3.39s, 15 samples/iter
+Validation: epoch=6, loss=0.79639
+Pearson Correlation: 0.67135,p_value: 5.045499573697043e-10
+Spearman Correlation: 0.61163，p_value; 3.835382328566407e-08
+epoch=6,iter=29,iter2=220,spearman_corr=0.6116252802424584
+
+####################epoch:8
+epoch=7, iter=9, iter2=238, loss=0.74741, spearmanr=0.60903,p_value=0.01596012092014902 times:5.56s, 15 samples/iter
+Validation: epoch=7, loss=0.79346
+Pearson Correlation: 0.55700,p_value: 9.816266128837015e-07
+Spearman Correlation: 0.50012，p_value; 1.6378313380666833e-05
+epoch=7,iter=14,iter2=243,spearman_corr=0.5001213459283772
+
+epoch=7, iter=19, iter2=248, loss=0.74970, spearmanr=0.39893,p_value=0.1407560883087637 times:5.43s, 15 samples/iter
+epoch=7, iter=29, iter2=258, loss=0.75105, spearmanr=0.49104,p_value=0.0630665231902101 times:3.57s, 15 samples/iter
+Validation: epoch=7, loss=0.80003
+Pearson Correlation: 0.55765,p_value: 9.477612934460922e-07
+Spearman Correlation: 0.51622，p_value; 7.770903391638252e-06
+epoch=7,iter=29,iter2=258,spearman_corr=0.5162197368048972
+
+####################epoch:9
+epoch=8, iter=9, iter2=276, loss=0.74529, spearmanr=0.37504,p_value=0.16838445469997695 times:5.47s, 15 samples/iter
+Validation: epoch=8, loss=0.79365
+Pearson Correlation: 0.37771,p_value: 0.0016262788558378816
+Spearman Correlation: 0.32388，p_value; 0.0075031405483868075
+epoch=8,iter=14,iter2=281,spearman_corr=0.32387802773604923
+
+epoch=8, iter=19, iter2=286, loss=0.74818, spearmanr=0.41490,p_value=0.12410242173109891 times:5.62s, 15 samples/iter
+epoch=8, iter=29, iter2=296, loss=0.74971, spearmanr=0.53274,p_value=0.04088885401571942 times:3.94s, 15 samples/iter
+Validation: epoch=8, loss=0.82639
+Pearson Correlation: 0.41261,p_value: 0.0005209079245105386
+Spearman Correlation: 0.39328，p_value; 0.0009935659317967364
+epoch=8,iter=29,iter2=296,spearman_corr=0.3932843679049363
+
+####################epoch:10
+epoch=9, iter=9, iter2=314, loss=0.74498, spearmanr=0.54155,p_value=0.037066369519369716 times:5.21s, 15 samples/iter
+Validation: epoch=9, loss=0.80255
+Pearson Correlation: 0.31100,p_value: 0.010420049540698528
+Spearman Correlation: 0.33277，p_value; 0.005932185959364782
+epoch=9,iter=14,iter2=319,spearman_corr=0.3327742055527074
+
+epoch=9, iter=19, iter2=324, loss=0.74639, spearmanr=0.38490,p_value=0.15657784453744794 times:5.24s, 15 samples/iter
+epoch=9, iter=29, iter2=334, loss=0.74730, spearmanr=0.60699,p_value=0.01641681189272149 times:3.69s, 15 samples/iter
+Validation: epoch=9, loss=0.79552
+Pearson Correlation: 0.60446,p_value: 6.07566761345879e-08
+Spearman Correlation: 0.52680，p_value; 4.662554275620706e-06
+epoch=9,iter=29,iter2=334,spearman_corr=0.5267950919522189
+
+####################epoch:11
+epoch=10, iter=9, iter2=352, loss=0.74303, spearmanr=0.66069,p_value=0.007333274358109857 times:5.44s, 15 samples/iter
+Validation: epoch=10, loss=0.80742
+Pearson Correlation: 0.20347,p_value: 0.09865019470453262
+Spearman Correlation: 0.27246，p_value; 0.025707131654091896
+epoch=10,iter=14,iter2=357,spearman_corr=0.27246139632151867
+
+epoch=10, iter=19, iter2=362, loss=0.74410, spearmanr=0.17774,p_value=0.5262482172790564 times:5.50s, 15 samples/iter
+epoch=10, iter=29, iter2=372, loss=0.74469, spearmanr=0.58782,p_value=0.02119396530663213 times:3.57s, 15 samples/iter
+Validation: epoch=10, loss=0.79631
+Pearson Correlation: 0.60183,p_value: 7.174721616820534e-08
+Spearman Correlation: 0.55326，p_value; 1.2007751567654305e-06
+epoch=10,iter=29,iter2=372,spearman_corr=0.5532595648957107
+
+####################epoch:12
+epoch=11, iter=9, iter2=390, loss=0.74072, spearmanr=0.45587,p_value=0.08766813978723544 times:5.07s, 15 samples/iter
+Validation: epoch=11, loss=0.80115
+Pearson Correlation: 0.36283,p_value: 0.0025482408236712217
+Spearman Correlation: 0.37075，p_value; 0.002011593530363076
+epoch=11,iter=14,iter2=395,spearman_corr=0.37075367971715417
+
+epoch=11, iter=19, iter2=400, loss=0.74200, spearmanr=0.27594,p_value=0.3194964649689256 times:5.52s, 15 samples/iter
+epoch=11, iter=29, iter2=410, loss=0.74263, spearmanr=0.47227,p_value=0.0754742534674208 times:3.78s, 15 samples/iter
+Validation: epoch=11, loss=0.82263
+Pearson Correlation: 0.36613,p_value: 0.002310579875484109
+Spearman Correlation: 0.35386，p_value; 0.0033070572649205776
+epoch=11,iter=29,iter2=410,spearman_corr=0.35386080098254985
+
+####################epoch:13
+epoch=12, iter=9, iter2=428, loss=0.73909, spearmanr=0.35559,p_value=0.19334674303549867 times:5.26s, 15 samples/iter
+Validation: epoch=12, loss=0.81355
+Pearson Correlation: 0.19993,p_value: 0.10477811843156815
+Spearman Correlation: 0.26839，p_value; 0.028091842474696673
+epoch=12,iter=14,iter2=433,spearman_corr=0.26839184222673657
+
+epoch=12, iter=19, iter2=438, loss=0.73999, spearmanr=0.03578,p_value=0.8992677954879353 times:5.37s, 15 samples/iter
+epoch=12, iter=29, iter2=448, loss=0.74073, spearmanr=0.68347,p_value=0.004967678042305151 times:3.67s, 15 samples/iter
+Validation: epoch=12, loss=0.80543
+Pearson Correlation: 0.63006,p_value: 1.1119378307000716e-08
+Spearman Correlation: 0.54732，p_value; 1.6445731151010378e-06
+epoch=12,iter=29,iter2=448,spearman_corr=0.5473218094928496
+
+####################epoch:14
+epoch=13, iter=9, iter2=466, loss=0.73749, spearmanr=0.24461,p_value=0.3795949959644799 times:5.18s, 15 samples/iter
+Validation: epoch=13, loss=0.80994
+Pearson Correlation: 0.08504,p_value: 0.4938548803329468
+Spearman Correlation: 0.11216，p_value; 0.3661797076693436
+epoch=13,iter=14,iter2=471,spearman_corr=0.11216057211020679
+
+epoch=13, iter=19, iter2=476, loss=0.73838, spearmanr=-0.15398,p_value=0.5837422920648789 times:5.37s, 15 samples/iter
+epoch=13, iter=29, iter2=486, loss=0.73860, spearmanr=0.44763,p_value=0.09429904221766619 times:3.69s, 15 samples/iter
+Validation: epoch=13, loss=0.81137
+Pearson Correlation: 0.44625,p_value: 0.0001537586358608678
+Spearman Correlation: 0.48407，p_value; 3.321497497826073e-05
+epoch=13,iter=29,iter2=486,spearman_corr=0.4840656202769509
+
+####################epoch:15
+epoch=14, iter=9, iter2=504, loss=0.73564, spearmanr=0.05264,p_value=0.852201867451684 times:5.36s, 15 samples/iter
+Validation: epoch=14, loss=0.80537
+Pearson Correlation: 0.13226,p_value: 0.28600364923477173
+Spearman Correlation: 0.15153，p_value; 0.2209275377924623
+epoch=14,iter=14,iter2=509,spearman_corr=0.15152972323660732
+
+epoch=14, iter=19, iter2=514, loss=0.73668, spearmanr=0.16265,p_value=0.5624860699025238 times:5.43s, 15 samples/iter
+epoch=14, iter=29, iter2=524, loss=0.73700, spearmanr=0.29875,p_value=0.27942444062671423 times:3.92s, 15 samples/iter
+Validation: epoch=14, loss=0.80852
+Pearson Correlation: 0.37186,p_value: 0.0019453298300504684
+Spearman Correlation: 0.33545，p_value; 0.005519722485612274
+epoch=14,iter=29,iter2=524,spearman_corr=0.3354528738451696
+
+####################epoch:16
+epoch=15, iter=9, iter2=542, loss=0.73428, spearmanr=0.24753,p_value=0.3737459680059879 times:5.50s, 15 samples/iter
+Validation: epoch=15, loss=0.80091
+Pearson Correlation: 0.20810,p_value: 0.09104523062705994
+Spearman Correlation: 0.21053，p_value; 0.0872611432938775
+epoch=15,iter=14,iter2=547,spearman_corr=0.21052633702576842
+
+epoch=15, iter=19, iter2=552, loss=0.73531, spearmanr=0.23648,p_value=0.39613496571592133 times:5.44s, 15 samples/iter
+epoch=15, iter=29, iter2=562, loss=0.73543, spearmanr=0.37355,p_value=0.17021949847976173 times:3.49s, 15 samples/iter
+Validation: epoch=15, loss=0.82669
+Pearson Correlation: 0.25216,p_value: 0.03953263536095619
+Spearman Correlation: 0.23076，p_value; 0.060281401611787085
+epoch=15,iter=29,iter2=562,spearman_corr=0.23075774098586146
+
+####################epoch:17
+epoch=16, iter=9, iter2=580, loss=0.73276, spearmanr=-0.12051,p_value=0.668800054731205 times:5.34s, 15 samples/iter
+Validation: epoch=16, loss=0.80790
+Pearson Correlation: 0.11132,p_value: 0.36982211470603943
+Spearman Correlation: 0.10694，p_value; 0.3890526716287488
+epoch=16,iter=14,iter2=585,spearman_corr=0.10693929377981223
+
+epoch=16, iter=19, iter2=590, loss=0.73382, spearmanr=-0.09148,p_value=0.7457512615510298 times:5.40s, 15 samples/iter
+epoch=16, iter=29, iter2=600, loss=0.73397, spearmanr=0.42346,p_value=0.11575555078082327 times:3.58s, 15 samples/iter
+Validation: epoch=16, loss=0.81221
+Pearson Correlation: 0.20556,p_value: 0.09516486525535583
+Spearman Correlation: 0.20091，p_value; 0.103053294686241
+epoch=16,iter=29,iter2=600,spearman_corr=0.2009084428056533
+
+####################epoch:18
+epoch=17, iter=9, iter2=618, loss=0.73156, spearmanr=0.00000,p_value=1.0 times:5.44s, 15 samples/iter
+Validation: epoch=17, loss=0.80910
+Pearson Correlation: 0.14725,p_value: 0.23441030085086823
+Spearman Correlation: 0.13170，p_value; 0.2880866994804675
+epoch=17,iter=14,iter2=623,spearman_corr=0.13169614182793604
+
+epoch=17, iter=19, iter2=628, loss=0.73229, spearmanr=-0.09490,p_value=0.7365609070130484 times:5.40s, 15 samples/iter
+epoch=17, iter=29, iter2=638, loss=0.73239, spearmanr=0.25962,p_value=0.3500703175353669 times:3.55s, 15 samples/iter
+Validation: epoch=17, loss=0.82879
+Pearson Correlation: 0.29134,p_value: 0.016756096854805946
+Spearman Correlation: 0.29286，p_value; 0.016172151546242176
+epoch=17,iter=29,iter2=638,spearman_corr=0.29285633971931596
+
+####################epoch:19
+epoch=18, iter=9, iter2=656, loss=0.73013, spearmanr=-0.04152,p_value=0.8832007194537921 times:5.46s, 15 samples/iter
+Validation: epoch=18, loss=0.80437
+Pearson Correlation: 0.23982,p_value: 0.05061575770378113
+Spearman Correlation: 0.19730，p_value; 0.109520053741386
+epoch=18,iter=14,iter2=661,spearman_corr=0.19730016678672646
+
+epoch=18, iter=19, iter2=666, loss=0.73095, spearmanr=0.20560,p_value=0.4622683263968642 times:5.32s, 15 samples/iter
+epoch=18, iter=29, iter2=676, loss=0.73096, spearmanr=0.42807,p_value=0.11142563133750279 times:3.57s, 15 samples/iter
+Validation: epoch=18, loss=0.81196
+Pearson Correlation: 0.25251,p_value: 0.03925613686442375
+Spearman Correlation: 0.23830，p_value; 0.05214309329249534
+epoch=18,iter=29,iter2=676,spearman_corr=0.2383015525452377
+
+####################epoch:20
+epoch=19, iter=9, iter2=694, loss=0.72881, spearmanr=-0.05909,p_value=0.8343143629677875 times:5.52s, 15 samples/iter
+Validation: epoch=19, loss=0.80068
+Pearson Correlation: 0.17582,p_value: 0.1546914130449295
+Spearman Correlation: 0.16894，p_value; 0.17172117657353436
+epoch=19,iter=14,iter2=699,spearman_corr=0.16894466035545427
+
+epoch=19, iter=19, iter2=704, loss=0.72974, spearmanr=-0.03414,p_value=0.9038526237837423 times:5.46s, 15 samples/iter
+epoch=19, iter=29, iter2=714, loss=0.72980, spearmanr=0.34347,p_value=0.21005406977367103 times:3.45s, 15 samples/iter
+Validation: epoch=19, loss=0.81369
+Pearson Correlation: 0.25588,p_value: 0.036619819700717926
+Spearman Correlation: 0.22949，p_value; 0.06174927274724146
+epoch=19,iter=29,iter2=714,spearman_corr=0.2294862920839474
+
+####################epoch:21
+epoch=20, iter=9, iter2=732, loss=0.72775, spearmanr=-0.20628,p_value=0.4607577065784959 times:5.37s, 15 samples/iter
+Validation: epoch=20, loss=0.80063
+Pearson Correlation: 0.19131,p_value: 0.12094786763191223
+Spearman Correlation: 0.18320，p_value; 0.13782181114973632
+epoch=20,iter=14,iter2=737,spearman_corr=0.1832029276792868
+
+epoch=20, iter=19, iter2=742, loss=0.72842, spearmanr=-0.03063,p_value=0.9137031632285362 times:5.39s, 15 samples/iter
+epoch=20, iter=29, iter2=752, loss=0.72861, spearmanr=0.42755,p_value=0.11190723439287621 times:3.62s, 15 samples/iter
+Validation: epoch=20, loss=0.81869
+Pearson Correlation: 0.33211,p_value: 0.006038063671439886
+Spearman Correlation: 0.26986，p_value; 0.027210136285768356
+epoch=20,iter=29,iter2=752,spearman_corr=0.2698612875904159
+
+####################epoch:22
+epoch=21, iter=9, iter2=770, loss=0.72669, spearmanr=-0.02334,p_value=0.9341995394452439 times:5.43s, 15 samples/iter
+Validation: epoch=21, loss=0.81551
+Pearson Correlation: 0.09862,p_value: 0.42718327045440674
+Spearman Correlation: 0.04819，p_value; 0.6985802278098615
+epoch=21,iter=14,iter2=775,spearman_corr=0.04818796502927159
+
+epoch=21, iter=19, iter2=780, loss=0.72728, spearmanr=-0.27932,p_value=0.31335532231763535 times:5.56s, 15 samples/iter
+epoch=21, iter=29, iter2=790, loss=0.72733, spearmanr=0.33484,p_value=0.2224855021847703 times:3.64s, 15 samples/iter
+Validation: epoch=21, loss=0.80941
+Pearson Correlation: 0.24477,p_value: 0.04590359330177307
+Spearman Correlation: 0.25939，p_value; 0.03403043568955055
+epoch=21,iter=29,iter2=790,spearman_corr=0.2593949576439252
+
+####################epoch:23
+epoch=22, iter=9, iter2=808, loss=0.72545, spearmanr=-0.06661,p_value=0.8135449037029504 times:5.10s, 15 samples/iter
+Validation: epoch=22, loss=0.80611
+Pearson Correlation: 0.10220,p_value: 0.41051700711250305
+Spearman Correlation: 0.10447，p_value; 0.4001645398147524
+epoch=22,iter=14,iter2=813,spearman_corr=0.1044688345513464
+
+epoch=22, iter=19, iter2=818, loss=0.72605, spearmanr=-0.00717,p_value=0.9797536566251921 times:5.57s, 15 samples/iter
+epoch=22, iter=29, iter2=828, loss=0.72606, spearmanr=0.19911,p_value=0.47683353583183863 times:3.58s, 15 samples/iter
+Validation: epoch=22, loss=0.81462
+Pearson Correlation: 0.18469,p_value: 0.13460183143615723
+Spearman Correlation: 0.16867，p_value; 0.17243936360610168
+epoch=22,iter=29,iter2=828,spearman_corr=0.16866605094875484
+
+####################epoch:24
+epoch=23, iter=9, iter2=846, loss=0.72428, spearmanr=-0.12724,p_value=0.651345358804303 times:5.08s, 15 samples/iter
+Validation: epoch=23, loss=0.80217
+Pearson Correlation: 0.07913,p_value: 0.5244140028953552
+Spearman Correlation: 0.12209，p_value; 0.3250199626563639
+epoch=23,iter=14,iter2=851,spearman_corr=0.12208546606643882
+
+epoch=23, iter=19, iter2=856, loss=0.72493, spearmanr=0.06685,p_value=0.8128754959553938 times:5.47s, 15 samples/iter
+epoch=23, iter=29, iter2=866, loss=0.72498, spearmanr=0.07335,p_value=0.7950407004548103 times:3.60s, 15 samples/iter
+Validation: epoch=23, loss=0.81371
+Pearson Correlation: 0.16681,p_value: 0.17729002237319946
+Spearman Correlation: 0.14881，p_value; 0.22941475955182328
+epoch=23,iter=29,iter2=866,spearman_corr=0.14881280258642213
+
+####################epoch:25
+epoch=24, iter=9, iter2=884, loss=0.72353, spearmanr=0.39713,p_value=0.1427199533120391 times:5.30s, 15 samples/iter
+Validation: epoch=24, loss=0.80858
+Pearson Correlation: 0.16079,p_value: 0.19367118179798126
+Spearman Correlation: 0.18929，p_value; 0.12498840601053375
+epoch=24,iter=14,iter2=889,spearman_corr=0.18929172499237193
+
+epoch=24, iter=19, iter2=894, loss=0.72408, spearmanr=0.29803,p_value=0.2806390138032251 times:5.66s, 15 samples/iter
+epoch=24, iter=29, iter2=904, loss=0.72412, spearmanr=0.08431,p_value=0.7651535837961108 times:3.60s, 15 samples/iter
+Validation: epoch=24, loss=0.81208
+Pearson Correlation: 0.18751,p_value: 0.12865054607391357
+Spearman Correlation: 0.20616，p_value; 0.09417705562963909
+epoch=24,iter=29,iter2=904,spearman_corr=0.2061594428016823
+
+####################epoch:26
+epoch=25, iter=9, iter2=922, loss=0.72268, spearmanr=0.39462,p_value=0.1454937819728262 times:5.50s, 15 samples/iter
+Validation: epoch=25, loss=0.80539
+Pearson Correlation: 0.14182,p_value: 0.2522796392440796
+Spearman Correlation: 0.16791，p_value; 0.17440570099862393
+epoch=25,iter=14,iter2=927,spearman_corr=0.16790755273147048
+
+epoch=25, iter=19, iter2=932, loss=0.72320, spearmanr=-0.07907,p_value=0.7794027219194971 times:5.26s, 15 samples/iter
+epoch=25, iter=29, iter2=942, loss=0.72328, spearmanr=0.39677,p_value=0.1431140387744784 times:3.63s, 15 samples/iter
+Validation: epoch=25, loss=0.81026
+Pearson Correlation: 0.12638,p_value: 0.30815234780311584
+Spearman Correlation: 0.14977，p_value; 0.22639616611473892
+epoch=25,iter=29,iter2=942,spearman_corr=0.14977095342802485
+
+####################epoch:27
+epoch=26, iter=9, iter2=960, loss=0.72192, spearmanr=0.25494,p_value=0.3591401649905601 times:5.19s, 15 samples/iter
+Validation: epoch=26, loss=0.81199
+Pearson Correlation: 0.20422,p_value: 0.09737545996904373
+Spearman Correlation: 0.18825，p_value; 0.12711282711168934
+epoch=26,iter=14,iter2=965,spearman_corr=0.188252033043758
+
+epoch=26, iter=19, iter2=970, loss=0.72239, spearmanr=0.22863,p_value=0.41244236490441066 times:5.27s, 15 samples/iter
+epoch=26, iter=29, iter2=980, loss=0.72247, spearmanr=0.35875,p_value=0.18914377614431344 times:3.76s, 15 samples/iter
+Validation: epoch=26, loss=0.80781
+Pearson Correlation: 0.07971,p_value: 0.5214157700538635
+Spearman Correlation: 0.12672，p_value; 0.3068331954259532
+epoch=26,iter=29,iter2=980,spearman_corr=0.1267243061730589
+
+####################epoch:28
+epoch=27, iter=9, iter2=998, loss=0.72106, spearmanr=0.23160,p_value=0.4062266757293307 times:5.06s, 15 samples/iter
+Validation: epoch=27, loss=0.81358
+Pearson Correlation: 0.13812,p_value: 0.2649901807308197
+Spearman Correlation: 0.15824，p_value; 0.20091805472154844
+epoch=27,iter=14,iter2=1003,spearman_corr=0.15823878191317706
+
+epoch=27, iter=19, iter2=1008, loss=0.72153, spearmanr=0.06475,p_value=0.8186677739111919 times:5.59s, 15 samples/iter
+epoch=27, iter=29, iter2=1018, loss=0.72158, spearmanr=0.11638,p_value=0.6795657963975599 times:3.69s, 15 samples/iter
+Validation: epoch=27, loss=0.80869
+Pearson Correlation: 0.10996,p_value: 0.3757292628288269
+Spearman Correlation: 0.13637，p_value; 0.2711841682107695
+epoch=27,iter=29,iter2=1018,spearman_corr=0.13636501121022415
+
+####################epoch:29
+epoch=28, iter=9, iter2=1036, loss=0.72021, spearmanr=0.30992,p_value=0.26094773037562125 times:5.21s, 15 samples/iter
+Validation: epoch=28, loss=0.81681
+Pearson Correlation: 0.15600,p_value: 0.20743300020694733
+Spearman Correlation: 0.17203，p_value; 0.16390311817283063
+epoch=28,iter=14,iter2=1041,spearman_corr=0.1720342194685309
+
+epoch=28, iter=19, iter2=1046, loss=0.72068, spearmanr=0.06741,p_value=0.8113425786842124 times:5.51s, 15 samples/iter
+epoch=28, iter=29, iter2=1056, loss=0.72070, spearmanr=0.24596,p_value=0.3768799119783869 times:3.63s, 15 samples/iter
+Validation: epoch=28, loss=0.80889
+Pearson Correlation: 0.13163,p_value: 0.2883281409740448
+Spearman Correlation: 0.16505，p_value; 0.18195682441443187
+epoch=28,iter=29,iter2=1056,spearman_corr=0.16505137061720587
+
+####################epoch:30
+epoch=29, iter=9, iter2=1074, loss=0.71936, spearmanr=0.19749,p_value=0.4804904792675754 times:5.02s, 15 samples/iter
+Validation: epoch=29, loss=0.82500
+Pearson Correlation: 0.13782,p_value: 0.26605233550071716
+Spearman Correlation: 0.15254，p_value; 0.21783405030856073
+epoch=29,iter=14,iter2=1079,spearman_corr=0.1525381478643904
+
+epoch=29, iter=19, iter2=1084, loss=0.71986, spearmanr=-0.42832,p_value=0.11119448204789599 times:5.23s, 15 samples/iter
+epoch=29, iter=29, iter2=1094, loss=0.71989, spearmanr=0.16488,p_value=0.5570660043236273 times:3.59s, 15 samples/iter
+Validation: epoch=29, loss=0.80957
+Pearson Correlation: 0.11918,p_value: 0.33675307035446167
+Spearman Correlation: 0.13926，p_value; 0.261040317074018
+epoch=29,iter=29,iter2=1094,spearman_corr=0.1392609892664239
+

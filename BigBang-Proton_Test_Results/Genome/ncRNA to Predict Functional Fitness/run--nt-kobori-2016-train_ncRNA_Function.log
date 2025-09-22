@@ -1,0 +1,861 @@
+
+total iter per epoch :73
+validation data numbers per epoch :9
+data.shape:  torch.Size([22, 57])
+tx_v.shape: torch.Size([22])
+total iter per epoch :73
+validation data numbers per epoch :9
+total iter per epoch :73
+validation data numbers per epoch :9
+total iter per epoch :73
+validation data numbers per epoch :9
+data.shape:  torch.Size([22, 57])
+tx_v.shape: torch.Size([22])
+data.shape:  torch.Size([22, 57])
+tx_v.shape: torch.Size([22])
+data.shape:  torch.Size([22, 57])
+tx_v.shape: torch.Size([22])
+fc_reg.weight不匹配
+fc_reg.bias不匹配
+fc_reg.weight不匹配
+fc_reg.bias不匹配
+fc_reg.weight不匹配
+fc_reg.bias不匹配
+fc_reg.weight不匹配
+fc_reg.bias不匹配
+Total number of parameters: 3.82849548
+Total number of parameters: 3.82849548
+Total number of parameters: 3.82849548
+Total number of parameters: 3.82849548
+NCCL version 2.20.5+cuda12.4
+Resuming training from epoch 1, batch_idx 171500, total_train_iter 171500
+Resuming training from epoch 1, batch_idx 171500, total_train_iter 171500
+Resuming training from epoch 1, batch_idx 171500, total_train_iter 171500
+Resuming training from epoch 1, batch_idx 171500, total_train_iter 171500
+started training...
+started training...
+started training...
+started training...
+####################epoch:2
+NCCL version 2.20.5+cuda12.4
+NCCL version 2.20.5+cuda12.4
+NCCL version 2.20.5+cuda12.4
+epoch=1, iter=9, iter2=10, loss=0.13633, spearmanr=0.05236,p_value=0.8169819303862604 times:6.92s, 22 samples/iter
+Validation: epoch=1, loss=0.13320
+Pearson Correlation: -0.13612,p_value: 0.07002847641706467
+Spearman Correlation: -0.09832，p_value; 0.1916570932680401
+epoch=1,iter=14,iter2=15,spearman_corr=-0.09832120264092892
+
+epoch=1, iter=19, iter2=20, loss=0.11822, spearmanr=0.08027,p_value=0.7225128671925349 times:5.15s, 22 samples/iter
+epoch=1, iter=29, iter2=30, loss=0.10580, spearmanr=0.30613,p_value=0.16587501762159335 times:4.02s, 22 samples/iter
+Validation: epoch=1, loss=0.08944
+Pearson Correlation: 0.24415,p_value: 0.0010224333964288235
+Spearman Correlation: 0.20779，p_value; 0.00538363316866725
+epoch=1,iter=29,iter2=30,spearman_corr=0.2077869767817004
+
+epoch=1, iter=39, iter2=40, loss=0.10584, spearmanr=0.24151,p_value=0.2789091190936819 times:4.92s, 22 samples/iter
+Validation: epoch=1, loss=0.08797
+Pearson Correlation: 0.42864,p_value: 2.3841624230414027e-09
+Spearman Correlation: 0.39855，p_value; 3.592083775877914e-08
+epoch=1,iter=44,iter2=45,spearman_corr=0.3985466209919692
+
+epoch=1, iter=49, iter2=50, loss=0.10553, spearmanr=0.40221,p_value=0.06350149645505129 times:5.16s, 22 samples/iter
+epoch=1, iter=59, iter2=60, loss=0.10491, spearmanr=0.35324,p_value=0.10682662276112041 times:3.96s, 22 samples/iter
+Validation: epoch=1, loss=0.08723
+Pearson Correlation: 0.36772,p_value: 4.4295018142292975e-07
+Spearman Correlation: 0.38327，p_value; 1.28894804966402e-07
+epoch=1,iter=59,iter2=60,spearman_corr=0.3832651637583041
+
+epoch=1, iter=69, iter2=70, loss=0.10521, spearmanr=0.33646,p_value=0.12575797760410865 times:5.11s, 22 samples/iter
+####################epoch:3
+epoch=2, iter=9, iter2=83, loss=0.10646, spearmanr=0.46716,p_value=0.028376296629712527 times:5.23s, 22 samples/iter
+Validation: epoch=2, loss=0.08837
+Pearson Correlation: 0.40778,p_value: 1.6080793585615538e-08
+Spearman Correlation: 0.39014，p_value; 7.313629343675326e-08
+epoch=2,iter=14,iter2=88,spearman_corr=0.3901385158432747
+
+epoch=2, iter=19, iter2=93, loss=0.10499, spearmanr=-0.02208,p_value=0.9223134781283803 times:5.60s, 22 samples/iter
+epoch=2, iter=29, iter2=103, loss=0.10256, spearmanr=0.48718,p_value=0.021470609895939692 times:3.65s, 22 samples/iter
+Validation: epoch=2, loss=0.09335
+Pearson Correlation: 0.40099,p_value: 2.910091190244657e-08
+Spearman Correlation: 0.38050，p_value; 1.6126484455559736e-07
+epoch=2,iter=29,iter2=103,spearman_corr=0.3805035567154321
+
+epoch=2, iter=39, iter2=113, loss=0.10267, spearmanr=-0.16752,p_value=0.45618383347146785 times:6.03s, 22 samples/iter
+Validation: epoch=2, loss=0.08687
+Pearson Correlation: 0.57546,p_value: 4.3890610274925025e-17
+Spearman Correlation: 0.54785，p_value; 2.4845433929753283e-15
+epoch=2,iter=44,iter2=118,spearman_corr=0.547852414926711
+
+epoch=2, iter=49, iter2=123, loss=0.10216, spearmanr=0.22644,p_value=0.31090373247536573 times:5.62s, 22 samples/iter
+epoch=2, iter=59, iter2=133, loss=0.10227, spearmanr=0.28766,p_value=0.1942481666116485 times:3.70s, 22 samples/iter
+Validation: epoch=2, loss=0.08894
+Pearson Correlation: 0.59330,p_value: 2.623975514900661e-18
+Spearman Correlation: 0.57914，p_value; 2.490153125549347e-17
+epoch=2,iter=59,iter2=133,spearman_corr=0.5791396720762559
+
+epoch=2, iter=69, iter2=143, loss=0.10290, spearmanr=0.28653,p_value=0.19608149909711736 times:5.61s, 22 samples/iter
+####################epoch:4
+epoch=3, iter=9, iter2=156, loss=0.10439, spearmanr=-0.12344,p_value=0.5841711516865553 times:5.40s, 22 samples/iter
+Validation: epoch=3, loss=0.08759
+Pearson Correlation: 0.57321,p_value: 6.18937893342803e-17
+Spearman Correlation: 0.55941，p_value; 4.798308027503376e-16
+epoch=3,iter=14,iter2=161,spearman_corr=0.5594116110789542
+
+epoch=3, iter=19, iter2=166, loss=0.10363, spearmanr=0.24908,p_value=0.26363720780055994 times:5.73s, 22 samples/iter
+epoch=3, iter=29, iter2=176, loss=0.10219, spearmanr=-0.20041,p_value=0.37118218851297236 times:3.70s, 22 samples/iter
+Validation: epoch=3, loss=0.09422
+Pearson Correlation: 0.55610,p_value: 7.735405571022546e-16
+Spearman Correlation: 0.54040，p_value; 6.935112201796155e-15
+epoch=3,iter=29,iter2=176,spearman_corr=0.5404044067257721
+
+epoch=3, iter=39, iter2=186, loss=0.10205, spearmanr=0.39468,p_value=0.06910170103753309 times:5.67s, 22 samples/iter
+Validation: epoch=3, loss=0.08694
+Pearson Correlation: 0.61978,p_value: 2.869659181595512e-20
+Spearman Correlation: 0.61573，p_value; 5.88930876160101e-20
+epoch=3,iter=44,iter2=191,spearman_corr=0.6157256478748149
+
+epoch=3, iter=49, iter2=196, loss=0.10174, spearmanr=0.10614,p_value=0.638267299742959 times:5.64s, 22 samples/iter
+epoch=3, iter=59, iter2=206, loss=0.10183, spearmanr=-0.10006,p_value=0.6577454843092314 times:4.10s, 22 samples/iter
+Validation: epoch=3, loss=0.08757
+Pearson Correlation: 0.59441,p_value: 2.1894587798974742e-18
+Spearman Correlation: 0.58468，p_value; 1.0466742731199728e-17
+epoch=3,iter=59,iter2=206,spearman_corr=0.5846772034935218
+
+epoch=3, iter=69, iter2=216, loss=0.10227, spearmanr=0.26356,p_value=0.23595436577657153 times:6.20s, 22 samples/iter
+####################epoch:5
+epoch=4, iter=9, iter2=229, loss=0.10301, spearmanr=-0.09410,p_value=0.6770074581151568 times:6.09s, 22 samples/iter
+Validation: epoch=4, loss=0.08686
+Pearson Correlation: 0.58470,p_value: 1.0429923652403576e-17
+Spearman Correlation: 0.58003，p_value; 2.1702131488190512e-17
+epoch=4,iter=14,iter2=234,spearman_corr=0.5800253161508492
+
+epoch=4, iter=19, iter2=239, loss=0.10251, spearmanr=0.14580,p_value=0.5173501008108605 times:5.86s, 22 samples/iter
+epoch=4, iter=29, iter2=249, loss=0.10152, spearmanr=0.23067,p_value=0.3016945852056532 times:3.78s, 22 samples/iter
+Validation: epoch=4, loss=0.09002
+Pearson Correlation: 0.61800,p_value: 3.9418632931663906e-20
+Spearman Correlation: 0.61679，p_value; 4.8797066562450713e-20
+epoch=4,iter=29,iter2=249,spearman_corr=0.6167914016589686
+
+epoch=4, iter=39, iter2=259, loss=0.10181, spearmanr=0.40147,p_value=0.06403284150707708 times:5.93s, 22 samples/iter
+Validation: epoch=4, loss=0.08755
+Pearson Correlation: 0.63069,p_value: 3.92676328879882e-21
+Spearman Correlation: 0.62577，p_value; 9.731208743945308e-21
+epoch=4,iter=44,iter2=264,spearman_corr=0.6257658495922207
+
+epoch=4, iter=49, iter2=269, loss=0.10146, spearmanr=0.51587,p_value=0.013988590376714337 times:5.80s, 22 samples/iter
+epoch=4, iter=59, iter2=279, loss=0.10146, spearmanr=0.13056,p_value=0.5625118053525051 times:3.78s, 22 samples/iter
+Validation: epoch=4, loss=0.08690
+Pearson Correlation: 0.61508,p_value: 6.592153206960559e-20
+Spearman Correlation: 0.61693，p_value; 4.759839104652869e-20
+epoch=4,iter=59,iter2=279,spearman_corr=0.6169320514824045
+
+epoch=4, iter=69, iter2=289, loss=0.10214, spearmanr=-0.09460,p_value=0.6753866191975614 times:5.96s, 22 samples/iter
+####################epoch:6
+epoch=5, iter=9, iter2=302, loss=0.10274, spearmanr=0.41016,p_value=0.05796957052785619 times:5.27s, 22 samples/iter
+Validation: epoch=5, loss=0.08698
+Pearson Correlation: 0.62122,p_value: 2.21665841068043e-20
+Spearman Correlation: 0.63112，p_value; 3.6297068610111845e-21
+epoch=5,iter=14,iter2=307,spearman_corr=0.6311153221702088
+
+epoch=5, iter=19, iter2=312, loss=0.10236, spearmanr=-0.00057,p_value=0.9980079489967122 times:5.71s, 22 samples/iter
+epoch=5, iter=29, iter2=322, loss=0.10162, spearmanr=0.08694,p_value=0.7004675189092643 times:3.80s, 22 samples/iter
+Validation: epoch=5, loss=0.09465
+Pearson Correlation: 0.59266,p_value: 2.9146871072066567e-18
+Spearman Correlation: 0.58326，p_value; 1.3085126894533494e-17
+epoch=5,iter=29,iter2=322,spearman_corr=0.583260719411292
+
+epoch=5, iter=39, iter2=332, loss=0.10156, spearmanr=0.17497,p_value=0.43608418456658515 times:5.82s, 22 samples/iter
+Validation: epoch=5, loss=0.08687
+Pearson Correlation: 0.63035,p_value: 4.184711969563952e-21
+Spearman Correlation: 0.62602，p_value; 9.287989097962027e-21
+epoch=5,iter=44,iter2=337,spearman_corr=0.6260210607468348
+
+epoch=5, iter=49, iter2=342, loss=0.10153, spearmanr=0.20731,p_value=0.35459713501047263 times:5.74s, 22 samples/iter
+epoch=5, iter=59, iter2=352, loss=0.10153, spearmanr=0.28053,p_value=0.20601879590875746 times:3.99s, 22 samples/iter
+Validation: epoch=5, loss=0.08687
+Pearson Correlation: 0.64808,p_value: 1.3963200267339586e-22
+Spearman Correlation: 0.66557，p_value; 3.8771841879163096e-24
+epoch=5,iter=59,iter2=352,spearman_corr=0.6655725541414532
+
+epoch=5, iter=69, iter2=362, loss=0.10198, spearmanr=0.12188,p_value=0.588989746930626 times:5.85s, 22 samples/iter
+####################epoch:7
+epoch=6, iter=9, iter2=375, loss=0.10247, spearmanr=0.37638,p_value=0.08426120533546168 times:5.21s, 22 samples/iter
+Validation: epoch=6, loss=0.08708
+Pearson Correlation: 0.59102,p_value: 3.802390043638352e-18
+Spearman Correlation: 0.59137，p_value; 3.592923390739205e-18
+epoch=6,iter=14,iter2=380,spearman_corr=0.5913665635495875
+
+epoch=6, iter=19, iter2=385, loss=0.10217, spearmanr=0.10264,p_value=0.6494580962866128 times:5.94s, 22 samples/iter
+epoch=6, iter=29, iter2=395, loss=0.10160, spearmanr=0.16691,p_value=0.45783211988298456 times:3.64s, 22 samples/iter
+Validation: epoch=6, loss=0.09504
+Pearson Correlation: 0.61591,p_value: 5.700583692303667e-20
+Spearman Correlation: 0.62935，p_value; 5.037061402479144e-21
+epoch=6,iter=29,iter2=395,spearman_corr=0.6293493903766912
+
+epoch=6, iter=39, iter2=405, loss=0.10156, spearmanr=0.41818,p_value=0.05277596332688222 times:5.80s, 22 samples/iter
+Validation: epoch=6, loss=0.08692
+Pearson Correlation: 0.63610,p_value: 1.4231725237815453e-21
+Spearman Correlation: 0.64895，p_value; 1.175286850779026e-22
+epoch=6,iter=44,iter2=410,spearman_corr=0.6489459296321137
+
+epoch=6, iter=49, iter2=415, loss=0.10145, spearmanr=-0.19796,p_value=0.3771788352293882 times:5.91s, 22 samples/iter
+epoch=6, iter=59, iter2=425, loss=0.10147, spearmanr=0.34061,p_value=0.12086909821826437 times:3.79s, 22 samples/iter
+Validation: epoch=6, loss=0.08717
+Pearson Correlation: 0.64095,p_value: 5.6303039960025255e-22
+Spearman Correlation: 0.65970，p_value; 1.324916374681015e-23
+epoch=6,iter=59,iter2=425,spearman_corr=0.6597041851434925
+
+epoch=6, iter=69, iter2=435, loss=0.10179, spearmanr=-0.09458,p_value=0.6754736351600239 times:5.77s, 22 samples/iter
+####################epoch:8
+epoch=7, iter=9, iter2=448, loss=0.10221, spearmanr=0.33560,p_value=0.12678875144269083 times:5.27s, 22 samples/iter
+Validation: epoch=7, loss=0.08700
+Pearson Correlation: 0.59961,p_value: 9.294044198329434e-19
+Spearman Correlation: 0.60813，p_value; 2.2025217302090744e-19
+epoch=7,iter=14,iter2=453,spearman_corr=0.6081346421743482
+
+epoch=7, iter=19, iter2=458, loss=0.10198, spearmanr=0.30204,p_value=0.17189485208030966 times:5.90s, 22 samples/iter
+epoch=7, iter=29, iter2=468, loss=0.10148, spearmanr=0.18728,p_value=0.403965108937244 times:4.07s, 22 samples/iter
+Validation: epoch=7, loss=0.09359
+Pearson Correlation: 0.61341,p_value: 8.841606905548016e-20
+Spearman Correlation: 0.61278，p_value; 9.865285834598117e-20
+epoch=7,iter=29,iter2=468,spearman_corr=0.6127810625925576
+
+epoch=7, iter=39, iter2=478, loss=0.10144, spearmanr=0.68812,p_value=0.0004002937025143224 times:5.81s, 22 samples/iter
+Validation: epoch=7, loss=0.08687
+Pearson Correlation: 0.64909,p_value: 1.141844479653461e-22
+Spearman Correlation: 0.66252，p_value; 7.366849369660751e-24
+epoch=7,iter=44,iter2=483,spearman_corr=0.6625236699897691
+
+epoch=7, iter=49, iter2=488, loss=0.10138, spearmanr=0.34834,p_value=0.11212136219734001 times:5.72s, 22 samples/iter
+epoch=7, iter=59, iter2=498, loss=0.10140, spearmanr=0.21196,p_value=0.3436588644818901 times:3.84s, 22 samples/iter
+Validation: epoch=7, loss=0.08699
+Pearson Correlation: 0.66948,p_value: 1.6840081956460714e-24
+Spearman Correlation: 0.68272，p_value; 9.073131852722099e-26
+epoch=7,iter=59,iter2=498,spearman_corr=0.6827181298405948
+
+Checkpoint saved at epoch 7, batch_idx 61, total_train_iter 499
+iter 500 save model /home/chipan/shuffle_token_pan/checkpoint/2025_01_14_09_47_45/last_add_499.pth
+epoch=7, iter=69, iter2=508, loss=0.10166, spearmanr=-0.01504,p_value=0.9470213386794533 times:17.44s, 22 samples/iter
+####################epoch:9
+epoch=8, iter=9, iter2=521, loss=0.10185, spearmanr=0.09337,p_value=0.6794013008005696 times:5.02s, 22 samples/iter
+Validation: epoch=8, loss=0.08848
+Pearson Correlation: 0.53016,p_value: 2.731209796356677e-14
+Spearman Correlation: 0.52839，p_value; 3.449134335475391e-14
+epoch=8,iter=14,iter2=526,spearman_corr=0.5283851975823551
+
+epoch=8, iter=19, iter2=531, loss=0.10178, spearmanr=0.38144,p_value=0.07984419134812414 times:5.58s, 22 samples/iter
+epoch=8, iter=29, iter2=541, loss=0.10281, spearmanr=0.23933,p_value=0.28339106201517633 times:3.74s, 22 samples/iter
+Validation: epoch=8, loss=0.08856
+Pearson Correlation: 0.57992,p_value: 2.2067871797546945e-17
+Spearman Correlation: 0.54108，p_value; 6.3227934301797235e-15
+epoch=8,iter=29,iter2=541,spearman_corr=0.5410826805827963
+
+epoch=8, iter=39, iter2=551, loss=0.10241, spearmanr=0.16638,p_value=0.45927846751929857 times:5.69s, 22 samples/iter
+Validation: epoch=8, loss=0.09124
+Pearson Correlation: 0.60136,p_value: 6.944765955678166e-19
+Spearman Correlation: 0.56000，p_value; 4.4076350303504984e-16
+epoch=8,iter=44,iter2=556,spearman_corr=0.5599966121643787
+
+epoch=8, iter=49, iter2=561, loss=0.10244, spearmanr=0.13448,p_value=0.5507144701841916 times:5.57s, 22 samples/iter
+epoch=8, iter=59, iter2=571, loss=0.10227, spearmanr=0.30798,p_value=0.16320372858558338 times:3.89s, 22 samples/iter
+Validation: epoch=8, loss=0.08642
+Pearson Correlation: 0.58088,p_value: 1.9005740159743017e-17
+Spearman Correlation: 0.55221，p_value; 1.3461947092693429e-15
+epoch=8,iter=59,iter2=571,spearman_corr=0.552212397235527
+
+epoch=8, iter=69, iter2=581, loss=0.10217, spearmanr=-0.19536,p_value=0.38361337896321734 times:5.93s, 22 samples/iter
+####################epoch:10
+epoch=9, iter=9, iter2=594, loss=0.10235, spearmanr=-0.25640,p_value=0.24939756110416242 times:5.31s, 22 samples/iter
+Validation: epoch=9, loss=0.08672
+Pearson Correlation: 0.57043,p_value: 9.426421882223235e-17
+Spearman Correlation: 0.56227，p_value; 3.163690438596798e-16
+epoch=9,iter=14,iter2=599,spearman_corr=0.5622698687342536
+
+epoch=9, iter=19, iter2=604, loss=0.10235, spearmanr=0.45110,p_value=0.03510124558015449 times:5.70s, 22 samples/iter
+epoch=9, iter=29, iter2=614, loss=0.10298, spearmanr=0.18156,p_value=0.418716235611457 times:3.79s, 22 samples/iter
+Validation: epoch=9, loss=0.08671
+Pearson Correlation: 0.58879,p_value: 5.440672531997601e-18
+Spearman Correlation: 0.54907，p_value; 2.096932497599605e-15
+epoch=9,iter=29,iter2=614,spearman_corr=0.5490655263563364
+
+epoch=9, iter=39, iter2=624, loss=0.10261, spearmanr=0.25710,p_value=0.24805980739615632 times:5.66s, 22 samples/iter
+Validation: epoch=9, loss=0.08859
+Pearson Correlation: 0.61599,p_value: 5.616346332907652e-20
+Spearman Correlation: 0.58255，p_value; 1.4631544459857015e-17
+epoch=9,iter=44,iter2=629,spearman_corr=0.5825494623388804
+
+epoch=9, iter=49, iter2=634, loss=0.10264, spearmanr=0.44699,p_value=0.03701112741305171 times:5.64s, 22 samples/iter
+epoch=9, iter=59, iter2=644, loss=0.10249, spearmanr=0.00226,p_value=0.9920206352075737 times:3.78s, 22 samples/iter
+Validation: epoch=9, loss=0.08645
+Pearson Correlation: 0.60413,p_value: 4.353560131321982e-19
+Spearman Correlation: 0.58588，p_value; 8.647346316458383e-18
+epoch=9,iter=59,iter2=644,spearman_corr=0.5858831838942391
+
+epoch=9, iter=69, iter2=654, loss=0.10240, spearmanr=-0.10300,p_value=0.648298791609897 times:5.59s, 22 samples/iter
+####################epoch:11
+epoch=10, iter=9, iter2=667, loss=0.10256, spearmanr=0.09045,p_value=0.6889459137582798 times:5.20s, 22 samples/iter
+Validation: epoch=10, loss=0.08710
+Pearson Correlation: 0.61809,p_value: 3.87578093262878e-20
+Spearman Correlation: 0.58612，p_value; 8.32302335590956e-18
+epoch=10,iter=14,iter2=672,spearman_corr=0.5861240133213119
+
+epoch=10, iter=19, iter2=677, loss=0.10255, spearmanr=0.36903,p_value=0.09100334740665067 times:5.94s, 22 samples/iter
+epoch=10, iter=29, iter2=687, loss=0.10309, spearmanr=-0.05986,p_value=0.7912921314487111 times:3.70s, 22 samples/iter
+Validation: epoch=10, loss=0.08708
+Pearson Correlation: 0.61073,p_value: 1.4078661847031694e-19
+Spearman Correlation: 0.58483，p_value; 1.021302755828981e-17
+epoch=10,iter=29,iter2=687,spearman_corr=0.5848324623314488
+
+epoch=10, iter=39, iter2=697, loss=0.10276, spearmanr=0.00000,p_value=1.0 times:5.89s, 22 samples/iter
+Validation: epoch=10, loss=0.08749
+Pearson Correlation: 0.63288,p_value: 2.6131031369397948e-21
+Spearman Correlation: 0.59781，p_value; 1.253771570108596e-18
+epoch=10,iter=44,iter2=702,spearman_corr=0.5978053458754906
+
+epoch=10, iter=49, iter2=707, loss=0.10277, spearmanr=0.31043,p_value=0.15969829685185985 times:5.79s, 22 samples/iter
+epoch=10, iter=59, iter2=717, loss=0.10263, spearmanr=-0.19049,p_value=0.39580505744833117 times:3.71s, 22 samples/iter
+Validation: epoch=10, loss=0.08647
+Pearson Correlation: 0.63652,p_value: 1.3147524907099281e-21
+Spearman Correlation: 0.61874，p_value; 3.4541394520943546e-20
+epoch=10,iter=59,iter2=717,spearman_corr=0.6187390160948368
+
+epoch=10, iter=69, iter2=727, loss=0.10254, spearmanr=0.27880,p_value=0.20895280931960492 times:5.47s, 22 samples/iter
+####################epoch:12
+epoch=11, iter=9, iter2=740, loss=0.10268, spearmanr=-0.12436,p_value=0.5813544106482844 times:5.29s, 22 samples/iter
+Validation: epoch=11, loss=0.08691
+Pearson Correlation: 0.61998,p_value: 2.7686381337003393e-20
+Spearman Correlation: 0.59634，p_value; 1.5969286740588522e-18
+epoch=11,iter=14,iter2=745,spearman_corr=0.5963384627733056
+
+epoch=11, iter=19, iter2=750, loss=0.10266, spearmanr=0.07971,p_value=0.7243931445528782 times:5.68s, 22 samples/iter
+epoch=11, iter=29, iter2=760, loss=0.10315, spearmanr=0.60212,p_value=0.003026260378964401 times:3.78s, 22 samples/iter
+Validation: epoch=11, loss=0.08722
+Pearson Correlation: 0.61656,p_value: 5.087264811012543e-20
+Spearman Correlation: 0.58768，p_value; 6.495053977488337e-18
+epoch=11,iter=29,iter2=760,spearman_corr=0.5876814882241151
+
+epoch=11, iter=39, iter2=770, loss=0.10286, spearmanr=-0.00795,p_value=0.9719976910298593 times:5.96s, 22 samples/iter
+Validation: epoch=11, loss=0.09266
+Pearson Correlation: 0.63696,p_value: 1.2089913101639148e-21
+Spearman Correlation: 0.60966，p_value; 1.6938120629599856e-19
+epoch=11,iter=44,iter2=775,spearman_corr=0.6096623563118744
+
+epoch=11, iter=49, iter2=780, loss=0.10283, spearmanr=0.35068,p_value=0.10957393946291796 times:5.75s, 22 samples/iter
+epoch=11, iter=59, iter2=790, loss=0.10271, spearmanr=0.28082,p_value=0.2055416459108249 times:3.70s, 22 samples/iter
+Validation: epoch=11, loss=0.08716
+Pearson Correlation: 0.65916,p_value: 1.4823022997517573e-23
+Spearman Correlation: 0.63217，p_value; 2.9794915329185535e-21
+epoch=11,iter=59,iter2=790,spearman_corr=0.6321737242071304
+
+epoch=11, iter=69, iter2=800, loss=0.10265, spearmanr=0.05458,p_value=0.8093649716781448 times:6.18s, 22 samples/iter
+####################epoch:13
+epoch=12, iter=9, iter2=813, loss=0.10278, spearmanr=0.13481,p_value=0.549727554281799 times:5.56s, 22 samples/iter
+Validation: epoch=12, loss=0.08715
+Pearson Correlation: 0.65689,p_value: 2.3676861742972586e-23
+Spearman Correlation: 0.62255，p_value; 1.7458620903122826e-20
+epoch=12,iter=14,iter2=818,spearman_corr=0.6225457879712941
+
+epoch=12, iter=19, iter2=823, loss=0.10274, spearmanr=0.33804,p_value=0.12387229975053489 times:5.52s, 22 samples/iter
+epoch=12, iter=29, iter2=833, loss=0.10318, spearmanr=0.67958,p_value=0.0005037618068545962 times:3.72s, 22 samples/iter
+Validation: epoch=12, loss=0.08740
+Pearson Correlation: 0.63262,p_value: 2.7387461366522744e-21
+Spearman Correlation: 0.58525，p_value; 9.555400949806913e-18
+epoch=12,iter=29,iter2=833,spearman_corr=0.5852531615884828
+
+epoch=12, iter=39, iter2=843, loss=0.10294, spearmanr=0.56486,p_value=0.0061618851662422185 times:5.74s, 22 samples/iter
+Validation: epoch=12, loss=0.09409
+Pearson Correlation: 0.64704,p_value: 1.7129194429514422e-22
+Spearman Correlation: 0.61200，p_value; 1.131100405432939e-19
+epoch=12,iter=44,iter2=848,spearman_corr=0.6119953012462036
+
+epoch=12, iter=49, iter2=853, loss=0.10288, spearmanr=0.42383,p_value=0.04933369901988782 times:5.67s, 22 samples/iter
+epoch=12, iter=59, iter2=863, loss=0.10277, spearmanr=0.65940,p_value=0.000843197801519634 times:3.95s, 22 samples/iter
+Validation: epoch=12, loss=0.08752
+Pearson Correlation: 0.62828,p_value: 6.130886197348663e-21
+Spearman Correlation: 0.60135，p_value; 6.949147167135574e-19
+epoch=12,iter=59,iter2=863,spearman_corr=0.60135231628054
+
+epoch=12, iter=69, iter2=873, loss=0.10271, spearmanr=0.01611,p_value=0.9432706815342202 times:5.73s, 22 samples/iter
+####################epoch:14
+epoch=13, iter=9, iter2=886, loss=0.10283, spearmanr=0.24396,p_value=0.2738973190509651 times:5.39s, 22 samples/iter
+Validation: epoch=13, loss=0.08675
+Pearson Correlation: 0.62760,p_value: 6.959753078972691e-21
+Spearman Correlation: 0.58997，p_value; 4.5023759569581245e-18
+epoch=13,iter=14,iter2=891,spearman_corr=0.5899677075808528
+
+epoch=13, iter=19, iter2=896, loss=0.10279, spearmanr=0.16011,p_value=0.476605476767181 times:5.65s, 22 samples/iter
+epoch=13, iter=29, iter2=906, loss=0.10320, spearmanr=0.02731,p_value=0.9039687460285148 times:3.98s, 22 samples/iter
+Validation: epoch=13, loss=0.08722
+Pearson Correlation: 0.64888,p_value: 1.190608705370603e-22
+Spearman Correlation: 0.60772，p_value; 2.365418573768053e-19
+epoch=13,iter=29,iter2=906,spearman_corr=0.607718148248339
+
+epoch=13, iter=39, iter2=916, loss=0.10296, spearmanr=0.13159,p_value=0.5593860170643308 times:5.56s, 22 samples/iter
+Validation: epoch=13, loss=0.09249
+Pearson Correlation: 0.66777,p_value: 2.4316751788268946e-24
+Spearman Correlation: 0.62641，p_value; 8.648507826554603e-21
+epoch=13,iter=44,iter2=921,spearman_corr=0.6264111484724583
+
+epoch=13, iter=49, iter2=926, loss=0.10293, spearmanr=0.34201,p_value=0.11924877891757386 times:5.73s, 22 samples/iter
+epoch=13, iter=59, iter2=936, loss=0.10283, spearmanr=-0.02209,p_value=0.9222697284010513 times:3.91s, 22 samples/iter
+Validation: epoch=13, loss=0.08730
+Pearson Correlation: 0.62540,p_value: 1.0400872087013736e-20
+Spearman Correlation: 0.57729，p_value; 3.314209816610204e-17
+epoch=13,iter=59,iter2=936,spearman_corr=0.577289976261413
+
+epoch=13, iter=69, iter2=946, loss=0.10279, spearmanr=0.19045,p_value=0.39590711838202186 times:5.65s, 22 samples/iter
+####################epoch:15
+epoch=14, iter=9, iter2=959, loss=0.10288, spearmanr=-0.05777,p_value=0.7984444174290112 times:5.80s, 22 samples/iter
+Validation: epoch=14, loss=0.08666
+Pearson Correlation: 0.66918,p_value: 1.7977443860238e-24
+Spearman Correlation: 0.63400，p_value; 2.115471795362743e-21
+epoch=14,iter=14,iter2=964,spearman_corr=0.6340003468743579
+
+epoch=14, iter=19, iter2=969, loss=0.10286, spearmanr=0.22696,p_value=0.30974757848570245 times:5.71s, 22 samples/iter
+epoch=14, iter=29, iter2=979, loss=0.10323, spearmanr=0.40491,p_value=0.061580504097370196 times:3.82s, 22 samples/iter
+Validation: epoch=14, loss=0.08723
+Pearson Correlation: 0.65569,p_value: 3.0207064938166605e-23
+Spearman Correlation: 0.61223，p_value; 1.0865933163919034e-19
+epoch=14,iter=29,iter2=979,spearman_corr=0.612226185364758
+
+epoch=14, iter=39, iter2=989, loss=0.10301, spearmanr=0.29744,p_value=0.17883100269909136 times:5.80s, 22 samples/iter
+Validation: epoch=14, loss=0.09198
+Pearson Correlation: 0.66464,p_value: 4.718707977516085e-24
+Spearman Correlation: 0.63181，p_value; 3.187049386865631e-21
+epoch=14,iter=44,iter2=994,spearman_corr=0.6318131080689817
+
+epoch=14, iter=49, iter2=999, loss=0.10297, spearmanr=0.34559,p_value=0.1151821523131585 times:5.66s, 22 samples/iter
+Checkpoint saved at epoch 14, batch_idx 50, total_train_iter 999
+iter 1000 save model /home/chipan/shuffle_token_pan/checkpoint/2025_01_14_09_47_45/last_add_999.pth
+epoch=14, iter=59, iter2=1009, loss=0.10287, spearmanr=0.61190,p_value=0.0024748380843317317 times:15.97s, 22 samples/iter
+Validation: epoch=14, loss=0.09159
+Pearson Correlation: 0.63015,p_value: 4.344651056851488e-21
+Spearman Correlation: 0.61387，p_value; 8.158553689444621e-20
+epoch=14,iter=59,iter2=1009,spearman_corr=0.6138688858074891
+
+epoch=14, iter=69, iter2=1019, loss=0.10283, spearmanr=0.23678,p_value=0.288723009101003 times:6.22s, 22 samples/iter
+####################epoch:16
+epoch=15, iter=9, iter2=1032, loss=0.10261, spearmanr=0.19045,p_value=0.39590711838202186 times:4.96s, 22 samples/iter
+Validation: epoch=15, loss=0.09118
+Pearson Correlation: 0.56899,p_value: 1.1685595071915403e-16
+Spearman Correlation: 0.56009，p_value; 4.350818179936393e-16
+epoch=15,iter=14,iter2=1037,spearman_corr=0.5600858841300039
+
+epoch=15, iter=19, iter2=1042, loss=0.10266, spearmanr=0.05314,p_value=0.8143098961434112 times:5.90s, 22 samples/iter
+epoch=15, iter=29, iter2=1052, loss=0.10239, spearmanr=0.28656,p_value=0.19602198149002867 times:3.72s, 22 samples/iter
+Validation: epoch=15, loss=0.09113
+Pearson Correlation: 0.62441,p_value: 1.2461534897041749e-20
+Spearman Correlation: 0.63477，p_value; 1.828435465271598e-21
+epoch=15,iter=29,iter2=1052,spearman_corr=0.6347743924642137
+
+epoch=15, iter=39, iter2=1062, loss=0.10232, spearmanr=0.30510,p_value=0.1673729872087984 times:5.49s, 22 samples/iter
+Validation: epoch=15, loss=0.09112
+Pearson Correlation: 0.61243,p_value: 1.0489547787383982e-19
+Spearman Correlation: 0.60853，p_value; 2.0579419292453595e-19
+epoch=15,iter=44,iter2=1067,spearman_corr=0.6085303984004504
+
+epoch=15, iter=49, iter2=1072, loss=0.10224, spearmanr=0.29430,p_value=0.18368650636338876 times:5.44s, 22 samples/iter
+epoch=15, iter=59, iter2=1082, loss=0.10222, spearmanr=0.61616,p_value=0.002262616834705637 times:3.71s, 22 samples/iter
+Validation: epoch=15, loss=0.09319
+Pearson Correlation: 0.62668,p_value: 8.237431278082443e-21
+Spearman Correlation: 0.61228，p_value; 1.0757108512236783e-19
+epoch=15,iter=59,iter2=1082,spearman_corr=0.612284048243367
+
+epoch=15, iter=69, iter2=1092, loss=0.10233, spearmanr=0.25681,p_value=0.24861522107664363 times:5.55s, 22 samples/iter
+####################epoch:17
+epoch=16, iter=9, iter2=1105, loss=0.10216, spearmanr=0.12779,p_value=0.5708898271578675 times:4.95s, 22 samples/iter
+Validation: epoch=16, loss=0.09168
+Pearson Correlation: 0.63016,p_value: 4.3374742149059535e-21
+Spearman Correlation: 0.60950，p_value; 1.7422407915676013e-19
+epoch=16,iter=14,iter2=1110,spearman_corr=0.6094987617967066
+
+epoch=16, iter=19, iter2=1115, loss=0.10224, spearmanr=0.04524,p_value=0.8415674454379428 times:5.52s, 22 samples/iter
+epoch=16, iter=29, iter2=1125, loss=0.10199, spearmanr=-0.02976,p_value=0.895398890914618 times:3.68s, 22 samples/iter
+Validation: epoch=16, loss=0.09127
+Pearson Correlation: 0.61412,p_value: 7.808233430740246e-20
+Spearman Correlation: 0.60657，p_value; 2.8782284141839905e-19
+epoch=16,iter=29,iter2=1125,spearman_corr=0.606569617264542
+
+epoch=16, iter=39, iter2=1135, loss=0.10192, spearmanr=-0.28640,p_value=0.19628609806673378 times:5.66s, 22 samples/iter
+Validation: epoch=16, loss=0.09190
+Pearson Correlation: 0.62766,p_value: 6.873172148880251e-21
+Spearman Correlation: 0.61041，p_value; 1.489577848142574e-19
+epoch=16,iter=44,iter2=1140,spearman_corr=0.6104068059306588
+
+epoch=16, iter=49, iter2=1145, loss=0.10184, spearmanr=0.34816,p_value=0.11232396597411932 times:5.82s, 22 samples/iter
+epoch=16, iter=59, iter2=1155, loss=0.10183, spearmanr=0.24730,p_value=0.26717390697765625 times:3.78s, 22 samples/iter
+Validation: epoch=16, loss=0.09299
+Pearson Correlation: 0.58282,p_value: 1.4023968820026053e-17
+Spearman Correlation: 0.57662，p_value; 3.675700015350976e-17
+epoch=16,iter=59,iter2=1155,spearman_corr=0.5766172552725667
+
+epoch=16, iter=69, iter2=1165, loss=0.10193, spearmanr=0.23610,p_value=0.2901485682251552 times:5.98s, 22 samples/iter
+####################epoch:18
+epoch=17, iter=9, iter2=1178, loss=0.10177, spearmanr=-0.03763,p_value=0.867939977889499 times:5.04s, 22 samples/iter
+Validation: epoch=17, loss=0.09167
+Pearson Correlation: 0.60030,p_value: 8.281830003590771e-19
+Spearman Correlation: 0.58308，p_value; 1.3456329951411184e-17
+epoch=17,iter=14,iter2=1183,spearman_corr=0.5830827653478802
+
+epoch=17, iter=19, iter2=1188, loss=0.10186, spearmanr=0.30160,p_value=0.17255079214757058 times:5.53s, 22 samples/iter
+epoch=17, iter=29, iter2=1198, loss=0.10162, spearmanr=-0.11083,p_value=0.6234252341821973 times:3.78s, 22 samples/iter
+Validation: epoch=17, loss=0.09119
+Pearson Correlation: 0.59056,p_value: 4.09070715486616e-18
+Spearman Correlation: 0.57013，p_value; 9.850919090154902e-17
+epoch=17,iter=29,iter2=1198,spearman_corr=0.5701329097907295
+
+epoch=17, iter=39, iter2=1208, loss=0.10156, spearmanr=0.26451,p_value=0.23420501938344468 times:5.40s, 22 samples/iter
+Validation: epoch=17, loss=0.09143
+Pearson Correlation: 0.60640,p_value: 2.962572696264928e-19
+Spearman Correlation: 0.59631，p_value; 1.603619431065542e-18
+epoch=17,iter=44,iter2=1213,spearman_corr=0.5963130458783127
+
+epoch=17, iter=49, iter2=1218, loss=0.10149, spearmanr=0.31600,p_value=0.15195348760810184 times:5.56s, 22 samples/iter
+epoch=17, iter=59, iter2=1228, loss=0.10147, spearmanr=0.29437,p_value=0.18357573260910004 times:3.66s, 22 samples/iter
+Validation: epoch=17, loss=0.09266
+Pearson Correlation: 0.58187,p_value: 1.628601166469929e-17
+Spearman Correlation: 0.56889，p_value; 1.1870941686532604e-16
+epoch=17,iter=59,iter2=1228,spearman_corr=0.5688897898721618
+
+epoch=17, iter=69, iter2=1238, loss=0.10158, spearmanr=0.18763,p_value=0.4030798508569462 times:5.54s, 22 samples/iter
+####################epoch:19
+epoch=18, iter=9, iter2=1251, loss=0.10143, spearmanr=0.15241,p_value=0.4983398369728198 times:4.82s, 22 samples/iter
+Validation: epoch=18, loss=0.09154
+Pearson Correlation: 0.61175,p_value: 1.1811866436149034e-19
+Spearman Correlation: 0.58590，p_value; 8.629968041721688e-18
+epoch=18,iter=14,iter2=1256,spearman_corr=0.5858958624912483
+
+epoch=18, iter=19, iter2=1261, loss=0.10151, spearmanr=0.42955,p_value=0.046030490397948085 times:5.54s, 22 samples/iter
+epoch=18, iter=29, iter2=1271, loss=0.10129, spearmanr=0.28555,p_value=0.19767605096780663 times:3.71s, 22 samples/iter
+Validation: epoch=18, loss=0.09115
+Pearson Correlation: 0.64015,p_value: 6.570982129066407e-22
+Spearman Correlation: 0.61802，p_value; 3.927014375751241e-20
+epoch=18,iter=29,iter2=1271,spearman_corr=0.6180173482164302
+
+epoch=18, iter=39, iter2=1281, loss=0.10124, spearmanr=0.06942,p_value=0.758847636656594 times:6.24s, 22 samples/iter
+Validation: epoch=18, loss=0.09126
+Pearson Correlation: 0.60641,p_value: 2.9570481637488395e-19
+Spearman Correlation: 0.58621，p_value; 8.20604248056406e-18
+epoch=18,iter=44,iter2=1286,spearman_corr=0.5862131379484469
+
+epoch=18, iter=49, iter2=1291, loss=0.10118, spearmanr=0.01643,p_value=0.9421625855246065 times:5.63s, 22 samples/iter
+epoch=18, iter=59, iter2=1301, loss=0.10116, spearmanr=0.55658,p_value=0.007139662168929662 times:3.78s, 22 samples/iter
+Validation: epoch=18, loss=0.09330
+Pearson Correlation: 0.57193,p_value: 7.512879824913695e-17
+Spearman Correlation: 0.55730，p_value; 6.50968162147969e-16
+epoch=18,iter=59,iter2=1301,spearman_corr=0.5573009344184584
+
+epoch=18, iter=69, iter2=1311, loss=0.10126, spearmanr=0.00085,p_value=0.9970000446368241 times:5.53s, 22 samples/iter
+####################epoch:20
+epoch=19, iter=9, iter2=1324, loss=0.10112, spearmanr=0.13549,p_value=0.5477173627468073 times:5.43s, 22 samples/iter
+Validation: epoch=19, loss=0.09160
+Pearson Correlation: 0.55567,p_value: 8.228462920223682e-16
+Spearman Correlation: 0.55421，p_value; 1.0137474411258164e-15
+epoch=19,iter=14,iter2=1329,spearman_corr=0.5542090827611159
+
+epoch=19, iter=19, iter2=1334, loss=0.10120, spearmanr=0.33107,p_value=0.13232178774173373 times:5.79s, 22 samples/iter
+epoch=19, iter=29, iter2=1344, loss=0.10100, spearmanr=-0.07513,p_value=0.7396536964035301 times:3.78s, 22 samples/iter
+Validation: epoch=19, loss=0.09113
+Pearson Correlation: 0.61107,p_value: 1.3290136418479035e-19
+Spearman Correlation: 0.59774，p_value; 1.2682991349168125e-18
+epoch=19,iter=29,iter2=1344,spearman_corr=0.5977356627303593
+
+epoch=19, iter=39, iter2=1354, loss=0.10095, spearmanr=0.25871,p_value=0.24500413450885836 times:5.74s, 22 samples/iter
+Validation: epoch=19, loss=0.09125
+Pearson Correlation: 0.62331,p_value: 1.5203930241132703e-20
+Spearman Correlation: 0.60940，p_value; 1.7728147176343923e-19
+epoch=19,iter=44,iter2=1359,spearman_corr=0.6093977598577721
+
+epoch=19, iter=49, iter2=1364, loss=0.10090, spearmanr=0.32870,p_value=0.13527610416262065 times:5.70s, 22 samples/iter
+epoch=19, iter=59, iter2=1374, loss=0.10088, spearmanr=0.19403,p_value=0.386921354314398 times:4.06s, 22 samples/iter
+Validation: epoch=19, loss=0.09316
+Pearson Correlation: 0.59347,p_value: 2.552270536320889e-18
+Spearman Correlation: 0.56330，p_value; 2.7210417403001344e-16
+epoch=19,iter=59,iter2=1374,spearman_corr=0.5632974348397483
+
+epoch=19, iter=69, iter2=1384, loss=0.10098, spearmanr=0.33656,p_value=0.1256387242685956 times:5.63s, 22 samples/iter
+####################epoch:21
+epoch=20, iter=9, iter2=1397, loss=0.10085, spearmanr=0.24002,p_value=0.2819633177627852 times:5.14s, 22 samples/iter
+Validation: epoch=20, loss=0.09166
+Pearson Correlation: 0.55399,p_value: 1.0454184396548613e-15
+Spearman Correlation: 0.53175，p_value; 2.2162742077980875e-14
+epoch=20,iter=14,iter2=1402,spearman_corr=0.5317470456558314
+
+epoch=20, iter=19, iter2=1407, loss=0.10093, spearmanr=0.25249,p_value=0.25694134749897535 times:5.39s, 22 samples/iter
+epoch=20, iter=29, iter2=1417, loss=0.10074, spearmanr=0.33948,p_value=0.12217888327991301 times:3.83s, 22 samples/iter
+Validation: epoch=20, loss=0.09120
+Pearson Correlation: 0.59019,p_value: 4.344284334727966e-18
+Spearman Correlation: 0.57584，p_value; 4.138550864351496e-17
+epoch=20,iter=29,iter2=1417,spearman_corr=0.5758446569226329
+
+epoch=20, iter=39, iter2=1427, loss=0.10069, spearmanr=0.63156,p_value=0.0016185766341366018 times:5.49s, 22 samples/iter
+Validation: epoch=20, loss=0.09155
+Pearson Correlation: 0.57960,p_value: 2.31774138209174e-17
+Spearman Correlation: 0.56521，p_value; 2.0536435277439906e-16
+epoch=20,iter=44,iter2=1432,spearman_corr=0.5652064160363204
+
+epoch=20, iter=49, iter2=1437, loss=0.10064, spearmanr=0.61728,p_value=0.002209315613695095 times:5.70s, 22 samples/iter
+epoch=20, iter=59, iter2=1447, loss=0.10063, spearmanr=0.05662,p_value=0.8023952353166044 times:3.89s, 22 samples/iter
+Validation: epoch=20, loss=0.09334
+Pearson Correlation: 0.54706,p_value: 2.773582704246368e-15
+Spearman Correlation: 0.51908，p_value; 1.1443459447632054e-13
+epoch=20,iter=59,iter2=1447,spearman_corr=0.5190781594151441
+
+epoch=20, iter=69, iter2=1457, loss=0.10073, spearmanr=0.28649,p_value=0.196149408482356 times:5.63s, 22 samples/iter
+####################epoch:22
+epoch=21, iter=9, iter2=1470, loss=0.10061, spearmanr=0.27275,p_value=0.21940984249790005 times:4.85s, 22 samples/iter
+Validation: epoch=21, loss=0.09170
+Pearson Correlation: 0.55775,p_value: 6.098209997988191e-16
+Spearman Correlation: 0.53583，p_value; 1.2870202322776208e-14
+epoch=21,iter=14,iter2=1475,spearman_corr=0.5358277838234152
+
+epoch=21, iter=19, iter2=1480, loss=0.10069, spearmanr=0.16032,p_value=0.4760261696584053 times:5.21s, 22 samples/iter
+epoch=21, iter=29, iter2=1490, loss=0.10051, spearmanr=0.30360,p_value=0.16958065223053934 times:3.68s, 22 samples/iter
+Validation: epoch=21, loss=0.09115
+Pearson Correlation: 0.58306,p_value: 1.3507516123036732e-17
+Spearman Correlation: 0.56314，p_value; 2.784534642850711e-16
+epoch=21,iter=29,iter2=1490,spearman_corr=0.5631404123215602
+
+Checkpoint saved at epoch 21, batch_idx 39, total_train_iter 1499
+iter 1500 save model /home/chipan/shuffle_token_pan/checkpoint/2025_01_14_09_47_45/last_add_1499.pth
+epoch=21, iter=39, iter2=1500, loss=0.10047, spearmanr=0.09459,p_value=0.6754254906376911 times:17.22s, 22 samples/iter
+Validation: epoch=21, loss=0.09082
+Pearson Correlation: 0.57822,p_value: 2.8728793310966953e-17
+Spearman Correlation: 0.60119，p_value; 7.144237761981507e-19
+epoch=21,iter=44,iter2=1505,spearman_corr=0.601186879355686
+
+epoch=21, iter=49, iter2=1510, loss=0.10042, spearmanr=0.50213,p_value=0.01725110256192266 times:6.33s, 22 samples/iter
+epoch=21, iter=59, iter2=1520, loss=0.10041, spearmanr=0.22229,p_value=0.32008656273134983 times:3.72s, 22 samples/iter
+Validation: epoch=21, loss=0.09223
+Pearson Correlation: 0.53050,p_value: 2.611240284872314e-14
+Spearman Correlation: 0.58201，p_value; 1.593285593027033e-17
+epoch=21,iter=59,iter2=1520,spearman_corr=0.5820057722559109
+
+epoch=21, iter=69, iter2=1530, loss=0.10050, spearmanr=0.14497,p_value=0.5197885467189387 times:6.00s, 22 samples/iter
+####################epoch:23
+epoch=22, iter=9, iter2=1543, loss=0.10053, spearmanr=0.34774,p_value=0.11278599984321386 times:5.25s, 22 samples/iter
+Validation: epoch=22, loss=0.09057
+Pearson Correlation: 0.56125,p_value: 3.6742857236815097e-16
+Spearman Correlation: 0.59501，p_value; 1.987117183567175e-18
+epoch=22,iter=14,iter2=1548,spearman_corr=0.5950065303655826
+
+epoch=22, iter=19, iter2=1553, loss=0.10059, spearmanr=0.04613,p_value=0.8384771424221206 times:5.62s, 22 samples/iter
+epoch=22, iter=29, iter2=1563, loss=0.10052, spearmanr=0.26009,p_value=0.24241188613820586 times:3.70s, 22 samples/iter
+Validation: epoch=22, loss=0.09249
+Pearson Correlation: 0.57114,p_value: 8.460971081964823e-17
+Spearman Correlation: 0.59156，p_value; 3.482568145700491e-18
+epoch=22,iter=29,iter2=1563,spearman_corr=0.5915594341304464
+
+epoch=22, iter=39, iter2=1573, loss=0.10046, spearmanr=0.16228,p_value=0.4705886782434152 times:5.69s, 22 samples/iter
+Validation: epoch=22, loss=0.09086
+Pearson Correlation: 0.61338,p_value: 8.881352933981189e-20
+Spearman Correlation: 0.64471，p_value; 2.7121732240635087e-22
+epoch=22,iter=44,iter2=1578,spearman_corr=0.6447062724297133
+
+epoch=22, iter=49, iter2=1583, loss=0.10042, spearmanr=0.43188,p_value=0.044734661446974806 times:5.56s, 22 samples/iter
+epoch=22, iter=59, iter2=1593, loss=0.10043, spearmanr=0.18025,p_value=0.4221483684465501 times:3.85s, 22 samples/iter
+Validation: epoch=22, loss=0.09103
+Pearson Correlation: 0.57639,p_value: 3.80889441294904e-17
+Spearman Correlation: 0.58798，p_value; 6.19664046264471e-18
+epoch=22,iter=59,iter2=1593,spearman_corr=0.5879759447780243
+
+epoch=22, iter=69, iter2=1603, loss=0.10050, spearmanr=0.48973,p_value=0.020697815843147935 times:5.74s, 22 samples/iter
+####################epoch:24
+epoch=23, iter=9, iter2=1616, loss=0.10051, spearmanr=0.10758,p_value=0.6337022414266318 times:4.97s, 22 samples/iter
+Validation: epoch=23, loss=0.09096
+Pearson Correlation: 0.64694,p_value: 1.7484929045913302e-22
+Spearman Correlation: 0.66532，p_value; 4.093908166369237e-24
+epoch=23,iter=14,iter2=1621,spearman_corr=0.6653155841071912
+
+epoch=23, iter=19, iter2=1626, loss=0.10056, spearmanr=0.50827,p_value=0.01572341784072689 times:5.81s, 22 samples/iter
+epoch=23, iter=29, iter2=1636, loss=0.10047, spearmanr=0.67454,p_value=0.0005750395995303845 times:3.79s, 22 samples/iter
+Validation: epoch=23, loss=0.09063
+Pearson Correlation: 0.60999,p_value: 1.6018050124177916e-19
+Spearman Correlation: 0.62973，p_value; 4.698131958999513e-21
+epoch=23,iter=29,iter2=1636,spearman_corr=0.6297257503110394
+
+epoch=23, iter=39, iter2=1646, loss=0.10039, spearmanr=0.31891,p_value=0.14800415507441003 times:5.59s, 22 samples/iter
+Validation: epoch=23, loss=0.09068
+Pearson Correlation: 0.58885,p_value: 5.3875741541165974e-18
+Spearman Correlation: 0.58804，p_value; 6.136454144782806e-18
+epoch=23,iter=44,iter2=1651,spearman_corr=0.5880370116252339
+
+epoch=23, iter=49, iter2=1656, loss=0.10036, spearmanr=-0.11934,p_value=0.5968093306514979 times:5.51s, 22 samples/iter
+epoch=23, iter=59, iter2=1666, loss=0.10038, spearmanr=0.39029,p_value=0.07252981425559035 times:3.78s, 22 samples/iter
+Validation: epoch=23, loss=0.09078
+Pearson Correlation: 0.64678,p_value: 1.8051218842069085e-22
+Spearman Correlation: 0.66159，p_value; 8.958174790771026e-24
+epoch=23,iter=59,iter2=1666,spearman_corr=0.6615875600973438
+
+epoch=23, iter=69, iter2=1676, loss=0.10043, spearmanr=0.01310,p_value=0.9538530477410274 times:5.64s, 22 samples/iter
+####################epoch:25
+epoch=24, iter=9, iter2=1689, loss=0.10045, spearmanr=0.01646,p_value=0.9420480635681019 times:5.06s, 22 samples/iter
+Validation: epoch=24, loss=0.09101
+Pearson Correlation: 0.60937,p_value: 1.7809264504221749e-19
+Spearman Correlation: 0.60911，p_value; 1.8641576138100473e-19
+epoch=24,iter=14,iter2=1694,spearman_corr=0.6091058645083637
+
+epoch=24, iter=19, iter2=1699, loss=0.10049, spearmanr=0.26432,p_value=0.2345642127957578 times:5.43s, 22 samples/iter
+epoch=24, iter=29, iter2=1709, loss=0.10040, spearmanr=-0.00482,p_value=0.9830014273959038 times:3.77s, 22 samples/iter
+Validation: epoch=24, loss=0.09082
+Pearson Correlation: 0.62307,p_value: 1.5873733279798982e-20
+Spearman Correlation: 0.62852，p_value; 5.869451835496648e-21
+epoch=24,iter=29,iter2=1709,spearman_corr=0.6285212600561116
+
+epoch=24, iter=39, iter2=1719, loss=0.10033, spearmanr=0.34653,p_value=0.1141240943998098 times:5.62s, 22 samples/iter
+Validation: epoch=24, loss=0.09053
+Pearson Correlation: 0.63522,p_value: 1.6814349313732405e-21
+Spearman Correlation: 0.65181，p_value; 6.624093386516908e-23
+epoch=24,iter=44,iter2=1724,spearman_corr=0.6518145618377181
+
+epoch=24, iter=49, iter2=1729, loss=0.10030, spearmanr=0.23975,p_value=0.2825253816319706 times:5.82s, 22 samples/iter
+epoch=24, iter=59, iter2=1739, loss=0.10031, spearmanr=0.55666,p_value=0.007129382940320665 times:4.10s, 22 samples/iter
+Validation: epoch=24, loss=0.09090
+Pearson Correlation: 0.62026,p_value: 2.6314343963545075e-20
+Spearman Correlation: 0.62587，p_value; 9.549042069681099e-21
+epoch=24,iter=59,iter2=1739,spearman_corr=0.6258693357804855
+
+epoch=24, iter=69, iter2=1749, loss=0.10037, spearmanr=0.40804,p_value=0.05940737715244447 times:5.69s, 22 samples/iter
+####################epoch:26
+epoch=25, iter=9, iter2=1762, loss=0.10039, spearmanr=0.19626,p_value=0.381384146126049 times:4.98s, 22 samples/iter
+Validation: epoch=25, loss=0.09094
+Pearson Correlation: 0.66193,p_value: 8.347259882253761e-24
+Spearman Correlation: 0.66519，p_value; 4.2006009889652024e-24
+epoch=25,iter=14,iter2=1767,spearman_corr=0.6651939454449592
+
+epoch=25, iter=19, iter2=1772, loss=0.10043, spearmanr=0.35318,p_value=0.10688751525021066 times:5.54s, 22 samples/iter
+epoch=25, iter=29, iter2=1782, loss=0.10035, spearmanr=0.51350,p_value=0.014513120642730233 times:3.69s, 22 samples/iter
+Validation: epoch=25, loss=0.09061
+Pearson Correlation: 0.60236,p_value: 5.872510856177341e-19
+Spearman Correlation: 0.62013，p_value; 2.6943721574982373e-20
+epoch=25,iter=29,iter2=1782,spearman_corr=0.6201309350498304
+
+epoch=25, iter=39, iter2=1792, loss=0.10028, spearmanr=0.50184,p_value=0.017325057893682366 times:5.61s, 22 samples/iter
+Validation: epoch=25, loss=0.09063
+Pearson Correlation: 0.65286,p_value: 5.36245302828408e-23
+Spearman Correlation: 0.66135，p_value; 9.420058766117359e-24
+epoch=25,iter=44,iter2=1797,spearman_corr=0.6613463807876991
+
+epoch=25, iter=49, iter2=1802, loss=0.10025, spearmanr=0.14767,p_value=0.5119550007822593 times:5.42s, 22 samples/iter
+epoch=25, iter=59, iter2=1812, loss=0.10026, spearmanr=0.18986,p_value=0.3974091335777127 times:3.71s, 22 samples/iter
+Validation: epoch=25, loss=0.09076
+Pearson Correlation: 0.62379,p_value: 1.3929404860314743e-20
+Spearman Correlation: 0.63980，p_value; 7.024710686687356e-22
+epoch=25,iter=59,iter2=1812,spearman_corr=0.6397986264595541
+
+epoch=25, iter=69, iter2=1822, loss=0.10031, spearmanr=0.22865,p_value=0.30606862687373276 times:5.67s, 22 samples/iter
+####################epoch:27
+epoch=26, iter=9, iter2=1835, loss=0.10033, spearmanr=0.73209,p_value=0.00010746740920896853 times:5.04s, 22 samples/iter
+Validation: epoch=26, loss=0.09112
+Pearson Correlation: 0.64758,p_value: 1.5419774499756285e-22
+Spearman Correlation: 0.66803，p_value; 2.2964698220713202e-24
+epoch=26,iter=14,iter2=1840,spearman_corr=0.6680339882950223
+
+epoch=26, iter=19, iter2=1845, loss=0.10037, spearmanr=0.46256,p_value=0.030188492318916772 times:5.84s, 22 samples/iter
+epoch=26, iter=29, iter2=1855, loss=0.10029, spearmanr=0.13097,p_value=0.5612812878322839 times:3.82s, 22 samples/iter
+Validation: epoch=26, loss=0.09068
+Pearson Correlation: 0.61675,p_value: 4.9180789107641726e-20
+Spearman Correlation: 0.62792，p_value; 6.554880620159224e-21
+epoch=26,iter=29,iter2=1855,spearman_corr=0.6279216528614219
+
+epoch=26, iter=39, iter2=1865, loss=0.10022, spearmanr=-0.01809,p_value=0.9363168349253017 times:6.07s, 22 samples/iter
+Validation: epoch=26, loss=0.09064
+Pearson Correlation: 0.61298,p_value: 9.524125261192883e-20
+Spearman Correlation: 0.61420，p_value; 7.696425535927488e-20
+epoch=26,iter=44,iter2=1870,spearman_corr=0.6142019756073663
+
+epoch=26, iter=49, iter2=1875, loss=0.10020, spearmanr=0.51754,p_value=0.013628864359883454 times:5.75s, 22 samples/iter
+epoch=26, iter=59, iter2=1885, loss=0.10021, spearmanr=0.53735,p_value=0.009909062567471299 times:3.74s, 22 samples/iter
+Validation: epoch=26, loss=0.09081
+Pearson Correlation: 0.61832,p_value: 3.7186566828046255e-20
+Spearman Correlation: 0.62369，p_value; 1.419333197480726e-20
+epoch=26,iter=59,iter2=1885,spearman_corr=0.6236907923307868
+
+epoch=26, iter=69, iter2=1895, loss=0.10025, spearmanr=0.49130,p_value=0.020232040077103806 times:5.62s, 22 samples/iter
+####################epoch:28
+epoch=27, iter=9, iter2=1908, loss=0.10027, spearmanr=0.45846,p_value=0.0318776215060935 times:5.39s, 22 samples/iter
+Validation: epoch=27, loss=0.09122
+Pearson Correlation: 0.58790,p_value: 6.2745367639000575e-18
+Spearman Correlation: 0.59490，p_value; 2.0229882428464035e-18
+epoch=27,iter=14,iter2=1913,spearman_corr=0.5948972495129098
+
+epoch=27, iter=19, iter2=1918, loss=0.10031, spearmanr=0.27848,p_value=0.20949550117837754 times:6.00s, 22 samples/iter
+epoch=27, iter=29, iter2=1928, loss=0.10023, spearmanr=0.49546,p_value=0.019041570514930974 times:3.87s, 22 samples/iter
+Validation: epoch=27, loss=0.09070
+Pearson Correlation: 0.62095,p_value: 2.3265650262532984e-20
+Spearman Correlation: 0.63347，p_value; 2.3387227789451868e-21
+epoch=27,iter=29,iter2=1928,spearman_corr=0.6334665028948924
+
+epoch=27, iter=39, iter2=1938, loss=0.10017, spearmanr=0.37982,p_value=0.08123830433822879 times:5.75s, 22 samples/iter
+Validation: epoch=27, loss=0.09067
+Pearson Correlation: 0.60020,p_value: 8.419805797716147e-19
+Spearman Correlation: 0.60952，p_value; 1.736206016607545e-19
+epoch=27,iter=44,iter2=1943,spearman_corr=0.609518902886113
+
+epoch=27, iter=49, iter2=1948, loss=0.10014, spearmanr=0.59576,p_value=0.0034374379431936298 times:5.63s, 22 samples/iter
+epoch=27, iter=59, iter2=1958, loss=0.10016, spearmanr=0.38285,p_value=0.07864015755063058 times:3.84s, 22 samples/iter
+Validation: epoch=27, loss=0.09073
+Pearson Correlation: 0.58831,p_value: 5.8727159969692544e-18
+Spearman Correlation: 0.60945，p_value; 1.7555066836621532e-19
+epoch=27,iter=59,iter2=1958,spearman_corr=0.6094547259723831
+
+epoch=27, iter=69, iter2=1968, loss=0.10020, spearmanr=-0.00542,p_value=0.9808878791887714 times:5.86s, 22 samples/iter
+####################epoch:29
+epoch=28, iter=9, iter2=1981, loss=0.10022, spearmanr=0.09685,p_value=0.6681051977945289 times:5.45s, 22 samples/iter
+Validation: epoch=28, loss=0.09125
+Pearson Correlation: 0.61205,p_value: 1.1194735415456777e-19
+Spearman Correlation: 0.62821，p_value; 6.216655303913151e-21
+epoch=28,iter=14,iter2=1986,spearman_corr=0.6282094234319382
+
+epoch=28, iter=19, iter2=1991, loss=0.10025, spearmanr=0.46637,p_value=0.0286797851722083 times:5.61s, 22 samples/iter
+Checkpoint saved at epoch 28, batch_idx 28, total_train_iter 1999
+iter 2000 save model /home/chipan/shuffle_token_pan/checkpoint/2025_01_14_09_47_45/last_add_1999.pth
+epoch=28, iter=29, iter2=2001, loss=0.10018, spearmanr=0.52413,p_value=0.012282553121680369 times:14.61s, 22 samples/iter
+Validation: epoch=28, loss=0.09742
+Pearson Correlation: 0.59902,p_value: 1.0253906649087499e-18
+Spearman Correlation: 0.60213，p_value; 6.102676546523705e-19
+epoch=28,iter=29,iter2=2001,spearman_corr=0.6021271703863238
+
+epoch=28, iter=39, iter2=2011, loss=0.10012, spearmanr=0.50311,p_value=0.016998200508253902 times:6.02s, 22 samples/iter
+Validation: epoch=28, loss=0.09784
+Pearson Correlation: 0.56002,p_value: 4.39474521413862e-16
+Spearman Correlation: 0.56176，p_value; 3.4080926186565337e-16
+epoch=28,iter=44,iter2=2016,spearman_corr=0.5617612403378215
+
+epoch=28, iter=49, iter2=2021, loss=0.10009, spearmanr=0.20606,p_value=0.3575700677337238 times:5.98s, 22 samples/iter
+epoch=28, iter=59, iter2=2031, loss=0.10011, spearmanr=0.60515,p_value=0.002845110736186952 times:3.63s, 22 samples/iter
+Validation: epoch=28, loss=0.09741
+Pearson Correlation: 0.55994,p_value: 4.445668305531956e-16
+Spearman Correlation: 0.56843，p_value; 1.2720107847441177e-16
+epoch=28,iter=59,iter2=2031,spearman_corr=0.5684280065740264
+
+epoch=28, iter=69, iter2=2041, loss=0.10015, spearmanr=0.57389,p_value=0.005226281404106174 times:5.99s, 22 samples/iter
+####################epoch:30
+epoch=29, iter=9, iter2=2054, loss=0.10012, spearmanr=0.56465,p_value=0.006185362521450508 times:5.12s, 22 samples/iter
+Validation: epoch=29, loss=0.09776
+Pearson Correlation: 0.58500,p_value: 9.943346237597833e-18
+Spearman Correlation: 0.59470，p_value; 2.0894415788295464e-18
+epoch=29,iter=14,iter2=2059,spearman_corr=0.5946997202474497
+
+epoch=29, iter=19, iter2=2064, loss=0.10008, spearmanr=0.40272,p_value=0.06313468536669764 times:5.46s, 22 samples/iter
+epoch=29, iter=29, iter2=2074, loss=0.09997, spearmanr=0.64498,p_value=0.0011914708136180915 times:3.81s, 22 samples/iter
+Validation: epoch=29, loss=0.09903
+Pearson Correlation: 0.59266,p_value: 2.9152144348471593e-18
+Spearman Correlation: 0.59471，p_value; 2.0843035576795214e-18
+epoch=29,iter=29,iter2=2074,spearman_corr=0.5947147718619696
+
+epoch=29, iter=39, iter2=2084, loss=0.10006, spearmanr=0.68497,p_value=0.00043609284508473343 times:5.50s, 22 samples/iter
+Validation: epoch=29, loss=0.09863
+Pearson Correlation: 0.63151,p_value: 3.3694592368204538e-21
+Spearman Correlation: 0.63784，p_value; 1.0220206740666307e-21
+epoch=29,iter=44,iter2=2089,spearman_corr=0.6378404753455845
+
+epoch=29, iter=49, iter2=2094, loss=0.09998, spearmanr=0.43934,p_value=0.04077717752711833 times:5.96s, 22 samples/iter
+epoch=29, iter=59, iter2=2104, loss=0.09998, spearmanr=0.45522,p_value=0.03326982428894075 times:3.91s, 22 samples/iter
+Validation: epoch=29, loss=0.09964
+Pearson Correlation: 0.61614,p_value: 5.475839366107863e-20
+Spearman Correlation: 0.61711，p_value; 4.6102686852325554e-20
+epoch=29,iter=59,iter2=2104,spearman_corr=0.6171125032013768
+
+epoch=29, iter=69, iter2=2114, loss=0.10002, spearmanr=0.32372,p_value=0.14165932258705455 times:5.84s, 22 samples/iter
