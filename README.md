@@ -1,16 +1,4 @@
-<div align="center">
-  <img src="./figures/ssymmetry-logo.png?raw=true" width="60%" alt="Ssymmetry" />
-</div>
-<hr>
-<div align="center" style="line-height: 1;">
-  <a href="https://www.ssymmetry.com/" target="_blank" style="margin: 2px;">
-    <img alt="Homepage" src="./figures/super_symmetry-group-blue.svg?raw=true" style="display: inline-block; vertical-align: middle;"/>
-  </a>
-  <a href="https://www.ssymmetry.com" target="_blank" style="margin: 2px;">
-    <img alt="Hugging Face" src="./figures/big_bang_transformer-neutron-blue.svg?raw=true" style="display: inline-block; vertical-align: middle;"/>
-  </a>
-</div>
-
+<img width="1886" height="630" alt="超对称" src="https://github.com/user-attachments/assets/81dfcbf8-78c4-4c85-9aad-cfd5b35a1094" />
 
 <div align="center" style="line-height: 1;">
   <a href="https://github.com/supersymmetry-technologies/bbt-neutron/blob/main/LICENSE" style="margin: 2px;">
@@ -19,18 +7,6 @@
   <a href="https://github.com/supersymmetry-technologies/bbt-neutron/blob/main/LICENSE-MODEL" style="margin: 2px;">
     <img alt="Model License" src="https://img.shields.io/badge/Model_License-Model_Agreement-f5de53?&color=f5de53" style="display: inline-block; vertical-align: middle;"/>
   </a>
-</div>
-
-<div align="center" style="line-height: 1;">
-  <a href="#2-model-architecture">Model Architecture</a> |
-  <a href="#3-data-processing">Data Processing</a> |
-  <a href="#5-environment">Environment</a> |
-  <a href="#6-training-inference-and-evaluation">Training, Inference and Evaluation</a> |
-  <a href="#7-quick-start">Quick Start</a>
-</div>
-
-<div align="center" style="line-height: 1;">
-  <a href="https://arxiv.org/pdf/2412.00129"><b>Paper Link</b>👁️</a>
 </div>
 
 
