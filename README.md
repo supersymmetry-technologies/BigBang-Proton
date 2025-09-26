@@ -72,7 +72,7 @@ This is the beginning of **Material World Foundation Models**.
 Code, models, and datasets are coming soon.  
 ⭐ **Star this repo** to follow our journey to unify science under one architecture.
 
-> **The ultimate limit of pretraining is not data or parameters, it is the boundary of the universe.**
+> **The ultimate limit of pretraining is the boundary of the universe.**
 
 ---
 
