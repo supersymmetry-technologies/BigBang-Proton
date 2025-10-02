@@ -1,4 +1,4 @@
-<img width="1886" height="630" alt="超对称" src="https://github.com/user-attachments/assets/81dfcbf8-78c4-4c85-9aad-cfd5b35a1094" />
+<img width="630" height="210" alt="超对称" src="https://github.com/user-attachments/assets/81dfcbf8-78c4-4c85-9aad-cfd5b35a1094" />
 
 <div align="center" style="line-height: 1;">
   <a href="https://github.com/supersymmetry-technologies/bbt-neutron/blob/main/LICENSE" style="margin: 2px;">
@@ -9,6 +9,11 @@
   </a>
 </div>
 
+
+## 📚 Resources
+
+- **arXiv Paper**: [https://arxiv.org/abs/2510.00129](https://arxiv.org/abs/2510.00129)
+- **Hugging Face Model**: [https://huggingface.co/SuperSymmetryTechnologies/BigBang-Proton](https://huggingface.co/SuperSymmetryTechnologies/BigBang-Proton)
 
 # 🌌 BigBang-Proton: The First Unified Architecture for Scientific Multi-Task Learning
 
