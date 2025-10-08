@@ -45,7 +45,6 @@ Traditional Transformers hit a wall at 1M tokens. Monte Carlo Attention breaks i
 
 ## 🧪 What Can It Do?
 
-BigBang-Proton isn’t a demo — it’s a **working scientific engine**:
 
 - ✅ **100% accuracy** on 50-digit arithmetic (no external calculator)
 - ✅ Matches **specialized SOTA models** in:
@@ -67,7 +66,6 @@ In high level, today’s AI is domain-specific or task-specific in science: one 
 
 ![hypothesis 1](https://github.com/user-attachments/assets/d824ede1-f2dc-4b3c-9a90-74ec80ef403d)
 
-![hypothesis 1](https://github.com/user-attachments/assets/a63e526a-20c6-4070-a73d-2fb675c85fc7)
 
 ---
 
