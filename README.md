@@ -42,7 +42,7 @@ Traditional Transformers hit a wall at 1M tokens. Monte Carlo Attention breaks i
 
 ---
 
-## 🧪 What Can It Do?
+## 🧪 Performance Summary 
 
 
 - ✅ **100% accuracy** on 50-digit arithmetic (no external calculator)
@@ -60,22 +60,9 @@ Traditional Transformers hit a wall at 1M tokens. Monte Carlo Attention breaks i
 
 In high level, today’s AI is domain-specific or task-specific in science: one model for material, another for proteins, another for weather. BigBang-Proton proves that **a single, task-agnostic architecture can integrate them all**, by learning the **universal language of the material world**. 
 
-> We are not scaling to more text.  
-> We are scaling to **the universe**.
 
 ![hypothesis 1](https://github.com/user-attachments/assets/d824ede1-f2dc-4b3c-9a90-74ec80ef403d)
 
 
----
-
-## 🚀 Join the Mission
-
-This is the beginning of **Material World Foundation Models**.  
-Code, models, and datasets are coming soon.  
-⭐ **Star this repo** to follow our journey to unify science under one architecture.
-
-> **The ultimate limit of pretraining is the boundary of the universe.**
-
----
 
  
