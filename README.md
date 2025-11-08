@@ -14,7 +14,7 @@
 - **arXiv Paper**: [https://arxiv.org/abs/2510.00129](https://arxiv.org/abs/2510.00129)
 - **Hugging Face Model**: [https://huggingface.co/SuperSymmetryTechnologies/BigBang-Proton](https://huggingface.co/SuperSymmetryTechnologies/BigBang-Proton)
 
-# 🌌 BigBang-Proton: The First Unified Architecture for Scientific Multi-Task Learning
+# BigBang-Proton: The First Unified Architecture for Scientific Multi-Task Learning
 
 > **Next-Word Prediction Is Scientific Multi-Task Learner**
 
