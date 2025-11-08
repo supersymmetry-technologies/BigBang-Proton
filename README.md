@@ -26,23 +26,23 @@ Built upon the foundation of **BigBang-Neutron**, Proton introduces three radica
 
 ---
 
-## 🔑 Core Innovations
+## Core Innovations
 
-### 1. 🧬 Binary Patch Encoding (No Tokenizer, No BPE)
+### 1. Binary Patch Encoding (No Tokenizer, No BPE)
 
 Get rid of tokenization. BigBang-Proton inherits BigBang-Neutron's Binray Patch Encoding which encodes **everything — text, numbers, formulas, DNA, sensor streams — as raw binary sequences**, grouped into patches. This eliminates the catastrophic failure of BPE on numerical data and enables perfect 50-digit arithmetic, precise genome modeling, and lossless scientific data ingestion. Binary Patch Encoding was proved to be highly effective in encoding large scale experimental numerical data especially in Big Science experimental data analysis. In BigBang-Proton, Binary Patch Encoding further demontrates its capabilities in encoding mixture of text with large scale numerical datasets and other modelities. This lays the foundations for ultimate unified architcture for material world foundational model. 
 
-### 2. ⚖️ Theory-Experiment Learning Paradigm
+### 2.  Theory-Experiment Learning Paradigm
 
 Science isn’t just theory — it’s theory + experiment. Proton treats them as **two aligned modalities**: theoretical text (papers, equations, hypotheses) and experimental data (numeerical daata, tables, time series, measurements). Like image-text alignment in multimodal models, Proton learns to ground abstract theory in concrete experimental reality , all within a single context window.
 
-### 3. 🌀 Monte Carlo Attention: Exponential Context, Linear Cost
+### 3.  Monte Carlo Attention: Exponential Context, Linear Cost
 
 Traditional Transformers hit a wall at 1M tokens. Monte Carlo Attention breaks it. By Inter-Patch Delegation Mechanism, through delegating “representative” tokens between patches layer-by-layer, context length grows **exponentially with depth** — 10³⁰ bytes at 20 layers, 10⁸⁰ (the baryon count of the observable universe) at 60 layers — while compute remains linear in patch size. Structure learning, not chain-of-thought, is the path to AGI.
 
 ---
 
-## 🧪 Performance Summary 
+##  Performance Summary 
 
 
 - ✅ **100% accuracy** on 50-digit arithmetic (no external calculator)
@@ -56,7 +56,7 @@ Traditional Transformers hit a wall at 1M tokens. Monte Carlo Attention breaks i
 
 ---
 
-## 🎯 Why It Matters
+##  Why It Matters
 
 In high level, today’s AI is domain-specific or task-specific in science: one model for material, another for proteins, another for weather. BigBang-Proton proves that **a single, task-agnostic architecture can integrate them all**, by learning the **universal language of the material world**. 
 
